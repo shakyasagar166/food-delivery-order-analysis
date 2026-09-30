@@ -1,0 +1,121 @@
+rider_id,rider_name,city,vehicle_type,rating,joining_date,status
+RDR-001,Kavya Iyer,Hyderabad,Scooter,3.8,2024-01-26,Active
+RDR-002,Aditi Rao,Bengaluru,Motorcycle,4.4,2023-07-05,Active
+RDR-003,Isha Sharma,Mumbai,Motorcycle,4.7,2024-01-09,Active
+RDR-004,Meera Mehta,Bengaluru,Motorcycle,4.0,2023-10-30,Active
+RDR-005,Rajesh Chatterjee,Mumbai,Motorcycle,5.0,2023-09-11,Inactive
+RDR-006,Tanvi Patel,Bengaluru,Motorcycle,3.9,2023-10-27,Active
+RDR-007,Rajesh Jain,Mumbai,Scooter,4.9,2024-02-20,Active
+RDR-008,Sneha Joshi,Mumbai,Motorcycle,3.9,2023-09-07,On Break
+RDR-009,Riya Patel,Pune,Motorcycle,4.5,2023-08-01,Active
+RDR-010,Nidhi Menon,Mumbai,Scooter,5.0,2023-10-30,Active
+RDR-011,Varun Gupta,Pune,Electric Vehicle,4.8,2024-01-18,Active
+RDR-012,Gaurav Kapoor,Bengaluru,Motorcycle,4.3,2023-10-28,Active
+RDR-013,Vikram Reddy,Mumbai,Motorcycle,4.0,2024-04-25,Active
+RDR-014,Karan Iyer,Bengaluru,Motorcycle,3.9,2024-02-16,Inactive
+RDR-015,Shreya Kapoor,Hyderabad,Scooter,4.3,2024-03-31,Inactive
+RDR-016,Naveen Reddy,Mumbai,Motorcycle,4.3,2024-02-23,Active
+RDR-017,Amit Mehta,Delhi NCR,Motorcycle,3.9,2023-12-03,Active
+RDR-018,Rohan Reddy,Mumbai,Motorcycle,4.8,2023-12-15,Active
+RDR-019,Neha Patel,Delhi NCR,Motorcycle,4.7,2023-12-30,Active
+RDR-020,Riya Singh,Hyderabad,Motorcycle,3.9,2023-12-01,Active
+RDR-021,Amit Nair,Hyderabad,Scooter,3.8,2024-01-24,On Break
+RDR-022,Manish Yadav,Hyderabad,Electric Vehicle,4.7,2023-11-05,Active
+RDR-023,Karan Bose,Mumbai,Motorcycle,3.9,2023-09-10,Active
+RDR-024,Pooja Sharma,Mumbai,Electric Vehicle,3.9,2023-10-22,Active
+RDR-025,Arjun Reddy,Mumbai,Motorcycle,4.8,2024-01-07,Active
+RDR-026,Sneha Joshi,Mumbai,Scooter,4.5,2023-08-08,Active
+RDR-027,Aditi Patel,Bengaluru,Motorcycle,4.0,2024-02-13,On Break
+RDR-028,Arjun Patel,Bengaluru,Electric Vehicle,4.9,2023-12-17,Active
+RDR-029,Pooja Verma,Mumbai,Scooter,4.9,2023-07-26,Active
+RDR-030,Rahul Joshi,Delhi NCR,Scooter,4.3,2024-01-19,On Break
+RDR-031,Anjali Sharma,Delhi NCR,Electric Vehicle,4.3,2024-02-04,Active
+RDR-032,Priya Chopra,Delhi NCR,Electric Vehicle,4.1,2023-10-04,Active
+RDR-033,Tanvi Gupta,Mumbai,Scooter,4.3,2023-09-15,On Break
+RDR-034,Rohan Bhat,Mumbai,Electric Vehicle,4.5,2023-11-03,Active
+RDR-035,Varun Chatterjee,Bengaluru,Electric Vehicle,4.3,2024-04-07,Active
+RDR-036,Deepak Verma,Hyderabad,Electric Vehicle,3.9,2024-01-13,Active
+RDR-037,Arjun Kulkarni,Mumbai,Motorcycle,4.0,2024-03-26,Active
+RDR-038,Kavya Das,Pune,Electric Vehicle,5.0,2024-04-04,Active
+RDR-039,Aditi Deshmukh,Delhi NCR,Motorcycle,4.7,2023-12-31,Active
+RDR-040,Deepak Yadav,Mumbai,Electric Vehicle,4.7,2023-12-24,Active
+RDR-041,Gaurav Deshmukh,Pune,Motorcycle,4.1,2023-07-14,Active
+RDR-042,Gaurav Bhat,Pune,Motorcycle,4.1,2023-11-21,On Break
+RDR-043,Ananya Chatterjee,Delhi NCR,Motorcycle,4.4,2024-04-25,Active
+RDR-044,Siddharth Nair,Delhi NCR,Motorcycle,3.9,2023-11-01,Active
+RDR-045,Tanvi Yadav,Bengaluru,Electric Vehicle,4.8,2023-07-29,Active
+RDR-046,Siddharth Joshi,Hyderabad,Scooter,4.8,2024-01-15,Inactive
+RDR-047,Naveen Nair,Delhi NCR,Motorcycle,4.0,2023-12-10,Active
+RDR-048,Naveen Joshi,Mumbai,Motorcycle,3.8,2023-12-28,Active
+RDR-049,Neha Joshi,Bengaluru,Electric Vehicle,4.9,2024-03-09,Active
+RDR-050,Meera Nair,Bengaluru,Motorcycle,4.4,2023-08-16,Inactive
+RDR-051,Ananya Rao,Bengaluru,Motorcycle,4.5,2023-07-11,Active
+RDR-052,Deepak Sharma,Hyderabad,Electric Vehicle,4.2,2023-10-12,Active
+RDR-053,Arjun Kapoor,Mumbai,Electric Vehicle,4.7,2023-12-13,Active
+RDR-054,Ananya Sharma,Mumbai,Scooter,4.0,2023-09-11,Active
+RDR-055,Pooja Singh,Bengaluru,Scooter,4.8,2023-08-07,Active
+RDR-056,Swati Jain,Delhi NCR,Motorcycle,4.9,2024-01-19,Active
+RDR-057,Karan Kapoor,Pune,Motorcycle,4.2,2023-09-08,On Break
+RDR-058,Rahul Kulkarni,Mumbai,Motorcycle,4.8,2024-03-06,Active
+RDR-059,Gaurav Nair,Delhi NCR,Motorcycle,4.6,2024-04-13,On Break
+RDR-060,Naveen Rao,Bengaluru,Scooter,4.6,2023-09-28,Active
+RDR-061,Rishi Malhotra,Hyderabad,Electric Vehicle,4.7,2023-11-28,Active
+RDR-062,Arjun Nair,Hyderabad,Electric Vehicle,4.7,2024-04-19,Active
+RDR-063,Riya Joshi,Mumbai,Motorcycle,3.8,2023-12-10,On Break
+RDR-064,Siddharth Das,Delhi NCR,Electric Vehicle,4.5,2024-03-11,Active
+RDR-065,Neha Kapoor,Mumbai,Motorcycle,4.7,2023-10-30,Active
+RDR-066,Naveen Kapoor,Bengaluru,Motorcycle,4.0,2023-08-15,Active
+RDR-067,Isha Bose,Mumbai,Motorcycle,3.8,2023-10-16,Active
+RDR-068,Kavya Jain,Hyderabad,Motorcycle,3.9,2023-11-09,Active
+RDR-069,Karan Sharma,Mumbai,Motorcycle,3.9,2024-02-10,Active
+RDR-070,Rajesh Nair,Bengaluru,Electric Vehicle,4.9,2024-03-09,Active
+RDR-071,Rishi Chopra,Delhi NCR,Scooter,4.5,2023-08-21,Active
+RDR-072,Deepak Joshi,Mumbai,Motorcycle,4.6,2023-10-24,Active
+RDR-073,Rahul Bose,Mumbai,Scooter,3.9,2023-07-18,Active
+RDR-074,Varun Sharma,Bengaluru,Electric Vehicle,4.2,2023-08-23,Active
+RDR-075,Vikram Kapoor,Delhi NCR,Motorcycle,4.0,2024-01-09,Active
+RDR-076,Rahul Patel,Bengaluru,Motorcycle,4.5,2023-08-17,Active
+RDR-077,Isha Bhat,Mumbai,Motorcycle,5.0,2024-03-04,Active
+RDR-078,Aditi Kulkarni,Mumbai,Motorcycle,4.9,2023-09-23,Active
+RDR-079,Nidhi Nair,Hyderabad,Motorcycle,3.9,2023-12-17,Active
+RDR-080,Divya Reddy,Mumbai,Electric Vehicle,4.3,2024-04-09,Active
+RDR-081,Amit Menon,Mumbai,Scooter,4.1,2023-10-30,Active
+RDR-082,Karan Verma,Delhi NCR,Electric Vehicle,4.3,2024-04-07,On Break
+RDR-083,Anjali Iyer,Delhi NCR,Electric Vehicle,3.9,2023-07-02,Active
+RDR-084,Nidhi Patel,Hyderabad,Motorcycle,4.2,2024-03-02,On Break
+RDR-085,Aditya Mehta,Delhi NCR,Electric Vehicle,3.8,2023-09-26,Active
+RDR-086,Varun Patel,Delhi NCR,Motorcycle,4.4,2023-08-29,Active
+RDR-087,Meera Deshmukh,Mumbai,Motorcycle,4.4,2023-11-13,Active
+RDR-088,Sneha Das,Mumbai,Scooter,4.5,2023-10-03,Active
+RDR-089,Swati Deshmukh,Pune,Motorcycle,4.2,2024-02-14,Active
+RDR-090,Rohan Gupta,Hyderabad,Electric Vehicle,4.3,2023-11-12,Active
+RDR-091,Siddharth Gupta,Delhi NCR,Electric Vehicle,4.5,2023-09-16,Active
+RDR-092,Karan Patel,Pune,Scooter,4.6,2024-04-03,Active
+RDR-093,Rajesh Joshi,Mumbai,Electric Vehicle,4.1,2023-08-01,Active
+RDR-094,Rishi Singh,Mumbai,Motorcycle,4.3,2024-03-31,Active
+RDR-095,Deepak Joshi,Hyderabad,Electric Vehicle,4.9,2024-02-29,Active
+RDR-096,Meera Patel,Bengaluru,Motorcycle,4.3,2023-07-18,Active
+RDR-097,Neha Mehta,Pune,Motorcycle,4.9,2024-02-15,On Break
+RDR-098,Priya Nair,Delhi NCR,Motorcycle,5.0,2023-10-07,Active
+RDR-099,Arjun Verma,Bengaluru,Scooter,4.3,2024-02-08,On Break
+RDR-100,Aditya Das,Bengaluru,Motorcycle,4.0,2023-11-10,Active
+RDR-101,Gaurav Patel,Pune,Motorcycle,3.9,2024-04-10,Active
+RDR-102,Riya Yadav,Delhi NCR,Electric Vehicle,4.2,2023-11-19,Active
+RDR-103,Shreya Sharma,Delhi NCR,Scooter,4.7,2024-04-26,Active
+RDR-104,Rajesh Mehta,Mumbai,Scooter,4.3,2023-09-14,Active
+RDR-105,Karan Mehta,Hyderabad,Motorcycle,4.5,2023-08-21,Active
+RDR-106,Varun Yadav,Hyderabad,Motorcycle,4.9,2024-01-27,Active
+RDR-107,Amit Deshmukh,Bengaluru,Motorcycle,4.6,2024-04-18,Active
+RDR-108,Deepak Verma,Bengaluru,Scooter,4.0,2024-01-23,Active
+RDR-109,Neha Bhat,Delhi NCR,Motorcycle,4.5,2024-01-22,Active
+RDR-110,Rohan Deshmukh,Mumbai,Scooter,4.9,2023-12-17,Active
+RDR-111,Kavya Verma,Mumbai,Motorcycle,4.7,2023-11-15,Active
+RDR-112,Swati Sharma,Bengaluru,Motorcycle,4.2,2023-12-03,On Break
+RDR-113,Meera Gupta,Bengaluru,Motorcycle,4.8,2023-08-20,Active
+RDR-114,Siddharth Iyer,Delhi NCR,Motorcycle,4.2,2024-02-12,Active
+RDR-115,Gaurav Gupta,Mumbai,Electric Vehicle,4.7,2023-08-15,Active
+RDR-116,Aditya Bose,Bengaluru,Electric Vehicle,4.1,2024-01-25,Active
+RDR-117,Anjali Singh,Delhi NCR,Scooter,4.8,2023-07-29,Active
+RDR-118,Rahul Patel,Mumbai,Motorcycle,4.2,2024-03-16,Active
+RDR-119,Riya Iyer,Bengaluru,Scooter,4.7,2024-03-25,Active
+RDR-120,Aditi Nair,Mumbai,Motorcycle,4.0,2023-10-11,On Break

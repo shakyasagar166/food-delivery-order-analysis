@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Analytics - Connected Full-Stack Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-icon">🍔</div>
+            <div class="brand-text">
+                <h2>QuickBite BI</h2>
+                <span>Full-Stack Analytics</span>
+            </div>
+        </div>
+        
+        <nav class="nav-links">
+            <button class="nav-item active" onclick="navigate('dashboard')">
+                <span class="icon">📊</span> Executive Dashboard
+            </button>
+            <button class="nav-item" onclick="navigate('sql')">
+                <span class="icon">⚡</span> Live SQL Playground
+            </button>
+            <button class="nav-item" onclick="navigate('excel')">
+                <span class="icon">📗</span> Excel Integration
+            </button>
+            <button class="nav-item" onclick="navigate('powerbi')">
+                <span class="icon">📈</span> Power BI & DAX Hub
+            </button>
+            <button class="nav-item" onclick="navigate('docs')">
+                <span class="icon">📑</span> Business Docs (BRD)
+            </button>
+        </nav>
+
+        <div class="tech-stack-badges">
+            <div class="badge-title">Connected Architecture</div>
+            <div class="stack-status-box">
+                <div class="status-row">
+                    <span class="dot dot-green"></span>
+                    <span class="status-text">Backend: Python API</span>
+                </div>
+                <div class="status-row">
+                    <span class="dot dot-green"></span>
+                    <span class="status-text">Database: SQLite / MySQL</span>
+                </div>
+                <div class="status-row">
+                    <span class="dot dot-green"></span>
+                    <span class="status-text">Excel: Openpyxl Model</span>
+                </div>
+                <div class="status-row">
+                    <span class="dot dot-green"></span>
+                    <span class="status-text">BI: Power BI DAX Specs</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- Top Navigation Header -->
+        <header class="topbar">
+            <div class="topbar-title">
+                <div class="title-with-badge">
+                    <h1 id="page-title">Executive Performance Cockpit</h1>
+                    <span id="backendStatusBadge" class="live-badge badge-connecting">Connecting API...</span>
+                </div>
+                <p id="page-subtitle">Zomato / Swiggy Business Analyst Architecture (Connected to Live Database)</p>
+            </div>
+            <div class="topbar-actions">
+                <div class="filter-group">
+                    <label for="cityFilter">Metro Market:</label>
+                    <select id="cityFilter" onchange="triggerFilterUpdate()">
+                        <option value="All Cities">All Metro Cities (5)</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Bengaluru">Bengaluru</option>
+                        <option value="Delhi NCR">Delhi NCR</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Pune">Pune</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="tierFilter">Customer Tier:</label>
+                    <select id="tierFilter" onchange="triggerFilterUpdate()">
+                        <option value="All Tiers">All Customer Tiers</option>
+                        <option value="Gold Member">Gold Loyalty Members</option>
+                        <option value="Regular">Regular Diners</option>
+                        <option value="Occasional">Occasional Users</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <!-- ============================================================= -->
+        <!-- VIEW 1: EXECUTIVE DASHBOARD -->
+        <!-- ============================================================= -->
+        <section id="view-dashboard" class="content-view active">
+            <!-- Metric Cards Row -->
+            <div class="kpi-cards-grid">
+                <div class="card kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Delivered Net GMV</span>
+                        <span class="kpi-icon">💰</span>
+                    </div>
+                    <div class="kpi-value" id="kpi-gmv">₹ 2,342,850</div>
+                    <div class="kpi-footer">
+                        <span class="trend-badge trend-up">↑ 14.8%</span>
+                        <span class="kpi-desc">Calculated Live from DB</span>
+                    </div>
+                </div>
+
+                <div class="card kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Fulfilled Volume</span>
+                        <span class="kpi-icon">📦</span>
+                    </div>
+                    <div class="kpi-value" id="kpi-orders">3,730</div>
+                    <div class="kpi-footer">
+                        <span class="trend-badge trend-neutral">88.8%</span>
+                        <span class="kpi-desc" id="kpi-orders-sub">of 4,200 orders placed</span>
+                    </div>
+                </div>
+
+                <div class="card kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Average Order Value (AOV)</span>
+                        <span class="kpi-icon">🧾</span>
+                    </div>
+                    <div class="kpi-value" id="kpi-aov">₹ 604.14</div>
+                    <div class="kpi-footer">
+                        <span class="trend-badge trend-up">+ ₹ 39</span>
+                        <span class="kpi-desc">Net ticket size</span>
+                    </div>
+                </div>
+
+                <div class="card kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-label">On-Time SLA Delivery %</span>
+                        <span class="kpi-icon">⏱️</span>
+                    </div>
+                    <div class="kpi-value text-accent" id="kpi-sla">78.4%</div>
+                    <div class="kpi-footer">
+                        <span class="trend-badge trend-down">Target: 85%</span>
+                        <span class="kpi-desc">Rainy delay bottleneck</span>
+                    </div>
+                </div>
+
+                <div class="card kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Cancellation Rate</span>
+                        <span class="kpi-icon">⚠️</span>
+                    </div>
+                    <div class="kpi-value text-danger" id="kpi-cancel">8.1%</div>
+                    <div class="kpi-footer">
+                        <span class="trend-badge trend-down">340 orders</span>
+                        <span class="kpi-desc">35% Late Rider</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Row 1 -->
+            <div class="grid-2-1">
+                <div class="card chart-card">
+                    <div class="card-header">
+                        <div>
+                            <h3>Monthly Net GMV & Order Trajectory</h3>
+                            <p class="card-subtitle">Live backend aggregation from orders table</p>
+                        </div>
+                        <span class="tag">Revenue Curve</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="monthlyChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="card chart-card">
+                    <div class="card-header">
+                        <div>
+                            <h3>Regional Market Share</h3>
+                            <p class="card-subtitle">GMV contribution by metro hub</p>
+                        </div>
+                        <span class="tag">City Split</span>
+                    </div>
+                    <div class="chart-container" style="max-height: 260px; display:flex; justify-content:center;">
+                        <canvas id="cityChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Row 2 -->
+            <div class="grid-1-1">
+                <div class="card chart-card">
+                    <div class="card-header">
+                        <div>
+                            <h3>Cuisine Revenue Contribution</h3>
+                            <p class="card-subtitle">Delivered GMV by menu category (INR)</p>
+                        </div>
+                        <span class="tag">Menu Analytics</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="cuisineChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="card chart-card">
+                    <div class="card-header">
+                        <div>
+                            <h3>Weather Sensitivity vs Delivery SLA %</h3>
+                            <p class="card-subtitle">Fulfillment compliance across weather conditions</p>
+                        </div>
+                        <span class="tag">Logistics Audit</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="weatherChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================= -->
+        <!-- VIEW 2: LIVE SQL PLAYGROUND -->
+        <!-- ============================================================= -->
+        <section id="view-sql" class="content-view">
+            <div class="sql-explorer-layout">
+                <!-- Query Preset Sidebar -->
+                <div class="sql-query-list card">
+                    <div class="card-header">
+                        <div>
+                            <h3>Preset BA Queries</h3>
+                            <p class="card-subtitle">21 Production SQL Scripts</p>
+                        </div>
+                        <span class="tag tag-success">Live DB</span>
+                    </div>
+                    <div class="query-items" id="queryItemsList"></div>
+                </div>
+
+                <!-- Live Query Execution & Output -->
+                <div class="sql-query-display card">
+                    <div class="card-header">
+                        <div>
+                            <h3 id="queryTitle">Live SQL Query Execution Engine</h3>
+                            <p class="card-subtitle" id="queryPurpose">Edit or type any custom query below and execute it directly against the live database!</p>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-secondary" onclick="copyCurrentSql()">📋 Copy SQL</button>
+                            <button class="btn btn-success" onclick="exportSqlToExcel()">📥 Export Results to Excel</button>
+                            <button class="btn btn-primary" onclick="runLiveSql()">▶️ Execute Query (F5)</button>
+                        </div>
+                    </div>
+
+                    <!-- Editable SQL Textarea -->
+                    <div class="sql-editor-container">
+                        <textarea id="sqlInput" class="sql-textarea" rows="6" spellcheck="false"></textarea>
+                    </div>
+
+                    <!-- Live Query Result Table -->
+                    <div class="query-result-section">
+                        <div class="result-header">
+                            <div>
+                                <h4>Query Execution Results</h4>
+                                <span id="executionStats" class="execution-stats">Status: Ready</span>
+                            </div>
+                        </div>
+                        <div class="table-responsive" id="queryResultTable">
+                            <p style="color:#94A3B8; padding: 16px;">Click "▶️ Execute Query" to fetch real-time data from the database.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================= -->
+        <!-- VIEW 3: EXCEL INTEGRATION -->
+        <!-- ============================================================= -->
+        <section id="view-excel" class="content-view">
+            <div class="card excel-hero-card" style="margin-bottom: 20px;">
+                <div class="card-header">
+                    <div>
+                        <h3>📊 Connected Microsoft Excel Analytical Model</h3>
+                        <p class="card-subtitle">Workbook: <code>Food_Delivery_Analysis.xlsx</code> | Formatted with Openpyxl</p>
+                    </div>
+                    <div class="btn-group">
+                        <a href="/api/download-excel" class="btn btn-primary" download>📥 Download Formatted Excel Workbook</a>
+                    </div>
+                </div>
+                <div class="excel-tabs-preview">
+                    <div class="excel-tab-badge active">Tab 1: Executive_KPIs</div>
+                    <div class="excel-tab-badge">Tab 2: Orders_Data</div>
+                    <div class="excel-tab-badge">Tab 3: Pivot_Analysis</div>
+                    <div class="excel-tab-badge">Tab 4: Operations_SLA</div>
+                    <div class="excel-tab-badge">Tab 5: Cohort_Retention</div>
+                </div>
+            </div>
+
+            <div class="grid-1-1">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Excel Formulations & Interview Best Practices</h3>
+                        <span class="tag">Formulas</span>
+                    </div>
+                    <div class="formula-card">
+                        <div class="formula-name">1. Dynamic Customer Lookup (XLOOKUP)</div>
+                        <code>=XLOOKUP(B2, Customers!A:A, Customers!E:E, "Unknown City", 0)</code>
+                        <p class="formula-desc">Bidirectional lookup returning customer city without hardcoded column index numbers.</p>
+                    </div>
+
+                    <div class="formula-card">
+                        <div class="formula-name">2. Conditional Net Revenue (SUMIFS)</div>
+                        <code>=SUMIFS(Orders!M:M, Orders!E:E, "&gt;=2024-01-01", Orders!G:G, "Delivered")</code>
+                        <p class="formula-desc">Aggregates net billed total strictly for successfully fulfilled orders.</p>
+                    </div>
+
+                    <div class="formula-card">
+                        <div class="formula-name">3. SLA Status Categorization (IFS)</div>
+                        <code>=IFS(Q2 &lt;= P2 + 3, "On-Time", Q2 &lt;= P2 + 15, "Minor Delay", TRUE, "Severe Breach")</code>
+                        <p class="formula-desc">Evaluates actual trip time against initial estimated ETA.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Customer Cohort Retention Matrix (2024)</h3>
+                        <span class="tag">Heatmap</span>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table cohort-table">
+                            <thead>
+                                <tr><th>Cohort</th><th>M0</th><th>M1</th><th>M2</th><th>M3</th><th>M4</th><th>M5</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td><b>2024-01</b></td><td class="c-green">100%</td><td class="c-green">58.2%</td><td class="c-yellow">44.1%</td><td class="c-yellow">38.4%</td><td class="c-yellow">34.0%</td><td class="c-red">29.1%</td></tr>
+                                <tr><td><b>2024-02</b></td><td class="c-green">100%</td><td class="c-green">54.7%</td><td class="c-yellow">46.3%</td><td class="c-yellow">39.0%</td><td class="c-yellow">32.8%</td><td>-</td></tr>
+                                <tr><td><b>2024-03</b></td><td class="c-green">100%</td><td class="c-green">56.1%</td><td class="c-yellow">42.5%</td><td class="c-yellow">37.2%</td><td>-</td><td>-</td></tr>
+                                <tr><td><b>2024-04</b></td><td class="c-green">100%</td><td class="c-green">52.9%</td><td class="c-yellow">40.1%</td><td>-</td><td>-</td><td>-</td></tr>
+                                <tr><td><b>2024-05</b></td><td class="c-green">100%</td><td class="c-green">55.0%</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================= -->
+        <!-- VIEW 4: POWER BI & DAX HUB -->
+        <!-- ============================================================= -->
+        <section id="view-powerbi" class="content-view">
+            <div class="grid-1-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Star Schema Hierarchy</h3>
+                        <span class="tag">Data Model</span>
+                    </div>
+                    <div class="schema-box">
+                        <div class="dim-box">Dim_Customer (1)</div>
+                        <div class="dim-box">Dim_Restaurant (1)</div>
+                        <div class="dim-box">Dim_Rider (1)</div>
+                        <div class="dim-box">Dim_Date (1)</div>
+                        <div class="arrow-down">⬇️ (1:Many Relationships)</div>
+                        <div class="fact-box">Fact_Orders (*)</div>
+                        <div class="arrow-down">⬇️ (1:1 / 1:Many)</div>
+                        <div class="fact-box">Fact_Deliveries (*)</div>
+                    </div>
+                    <div style="margin-top: 20px; text-align: center;">
+                        <a href="../power_bi/interactive_bi_preview.html" target="_blank" class="btn btn-secondary">
+                            🖥️ Open Standalone Power BI Report Preview
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Production DAX Measures (30+ Catalog)</h3>
+                        <span class="tag">VertiPaq Optimized</span>
+                    </div>
+                    <div class="dax-catalog">
+                        <div class="dax-item">
+                            <div class="dax-header">
+                                <span class="dax-name">[Net Delivered GMV]</span>
+                                <span class="dax-type">Currency</span>
+                            </div>
+                            <code>CALCULATE(SUM(Fact_Orders[total_amount]), Fact_Orders[order_status] = "Delivered")</code>
+                        </div>
+
+                        <div class="dax-item">
+                            <div class="dax-header">
+                                <span class="dax-name">[SLA Compliance Rate %]</span>
+                                <span class="dax-type">Percentage</span>
+                            </div>
+                            <code>DIVIDE(CALCULATE(COUNTROWS(Fact_Deliveries), Fact_Deliveries[sla_status] = "On-Time"), COUNTROWS(Fact_Deliveries), 0)</code>
+                        </div>
+
+                        <div class="dax-item">
+                            <div class="dax-header">
+                                <span class="dax-name">[MoM GMV Growth %]</span>
+                                <span class="dax-type">Time Intelligence</span>
+                            </div>
+                            <code>VAR PrevGMV = CALCULATE([Net Delivered GMV], DATEADD(Dim_Date[Date], -1, MONTH)) RETURN DIVIDE([Net Delivered GMV] - PrevGMV, PrevGMV, 0)</code>
+                        </div>
+
+                        <div class="dax-item">
+                            <div class="dax-header">
+                                <span class="dax-name">[Repeat Customer Rate %]</span>
+                                <span class="dax-type">Behavioral</span>
+                            </div>
+                            <code>VAR RepeatUsers = COUNTROWS(FILTER(VALUES(Fact_Orders[customer_id]), CALCULATE(COUNTROWS(Fact_Orders), Fact_Orders[order_status] = "Delivered") &gt; 1)) RETURN DIVIDE(RepeatUsers, [Active Transacting Customers], 0)</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================= -->
+        <!-- VIEW 5: BUSINESS DOCS -->
+        <!-- ============================================================= -->
+        <section id="view-docs" class="content-view">
+            <div class="card">
+                <div class="card-header">
+                    <div class="docs-nav-tabs">
+                        <button class="doc-tab-btn active" onclick="switchDoc('brd')">📋 Business Requirements (BRD)</button>
+                        <button class="doc-tab-btn" onclick="switchDoc('insights')">💡 Strategic Recommendations</button>
+                        <button class="doc-tab-btn" onclick="switchDoc('interview')">🎙️ 15+ Interview Q&A</button>
+                    </div>
+                </div>
+
+                <div id="doc-brd" class="doc-content active">
+                    <div class="doc-article">
+                        <h2>Business Requirements Document (BRD) - Food Delivery Analytics</h2>
+                        <p><b>Objective:</b> Deliver end-to-end data pipeline and visual executive reporting for order fulfillment, SLA bottlenecks, and revenue take-rates.</p>
+                        <h3>Strategic OKRs:</h3>
+                        <ul>
+                            <li><b>Reduce Order Cancellation Rate</b> from 8.1% to &lt; 4.5% (recovering ₹1.2M lost GMV).</li>
+                            <li><b>Elevate On-Time Delivery SLA</b> from 78.4% to &gt; 88.0% by mitigating rain and traffic bottlenecks.</li>
+                            <li><b>Optimize Unit Economics:</b> Boost net platform take-rate from 18.2% to 21.5%.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="doc-insights" class="doc-content">
+                    <div class="doc-article">
+                        <h2>Key Executive Findings & Actionable Levers</h2>
+                        <ol>
+                            <li><b>Weather Vulnerability:</b> Rainy conditions trigger a +12.4 min delay, dropping SLA to 61.5%. <i>Solution:</i> Dynamic weather buffer (+10m) + ₹25 rider rain surge.</li>
+                            <li><b>Cancellation Friction:</b> 35.2% cancellations stem from Late Rider Assignment. <i>Solution:</i> Pre-dispatch riders when kitchen prep hits 70%.</li>
+                            <li><b>Gold Loyalty Tier:</b> Gold members contribute 41.8% of GMV with a 24% higher AOV. <i>Solution:</i> Convert top regulars with discounted annual Gold passes.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div id="doc-interview" class="doc-content">
+                    <div class="doc-article">
+                        <h2>Top Business Analyst Interview Questions on this Project</h2>
+                        <div class="qa-item">
+                            <h4>Q: How did you calculate MoM Growth in SQL?</h4>
+                            <p><b>A:</b> Using the <code>LAG()</code> window function over the partitioned monthly GMV CTE to compare current month's revenue against prior month without collapsing rows.</p>
+                        </div>
+                        <div class="qa-item">
+                            <h4>Q: Why Star Schema over Snowflake in Power BI?</h4>
+                            <p><b>A:</b> Star schema reduces joins, maximizing compression in VertiPaq and simplifying DAX filter context traversal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

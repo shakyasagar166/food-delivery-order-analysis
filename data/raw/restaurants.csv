@@ -1,0 +1,61 @@
+restaurant_id,restaurant_name,city,cuisine_type,rating,cost_for_two,commission_rate,is_exclusive
+REST-001,Bistro Bites (Biryani),Mumbai,Biryani & Mughlai,4.2,1400,0.24,0
+REST-002,Curry Palace (Italian),Delhi NCR,Italian & Fast Food,3.7,800,0.27,1
+REST-003,Bistro Palace (North),Hyderabad,North Indian,3.7,800,0.22,0
+REST-004,Tandoori Tales (Italian),Delhi NCR,Italian & Fast Food,4.7,800,0.19,0
+REST-005,Slice of Craft (North),Hyderabad,North Indian,3.7,350,0.2,0
+REST-006,Flavors of Craft (Chinese),Delhi NCR,Chinese & Pan-Asian,4.1,1400,0.23,0
+REST-007,Grand Dhaba (North),Delhi NCR,North Indian,3.8,1100,0.23,0
+REST-008,Royal Craft (Desserts),Hyderabad,Desserts & Bakery,4.5,1100,0.28,0
+REST-009,Wok & House (North),Mumbai,North Indian,4.4,450,0.27,0
+REST-010,Bistro Corner (North),Bengaluru,North Indian,3.9,350,0.27,0
+REST-011,Urban Treat (North),Mumbai,North Indian,4.6,1100,0.27,0
+REST-012,Biryani Junction (South),Pune,South Indian,3.6,450,0.26,0
+REST-013,Royal Central (Desserts),Pune,Desserts & Bakery,3.9,600,0.21,0
+REST-014,Curry Corner (Healthy),Mumbai,Healthy & Salads,4.3,1100,0.19,1
+REST-015,Slice of Junction (Desserts),Delhi NCR,Desserts & Bakery,4.8,600,0.25,0
+REST-016,Urban Palace (Biryani),Pune,Biryani & Mughlai,4.5,450,0.23,0
+REST-017,Biryani Corner (South),Mumbai,South Indian,4.3,800,0.19,0
+REST-018,Green Craft (Desserts),Delhi NCR,Desserts & Bakery,3.5,1100,0.25,0
+REST-019,Bistro Express (Chinese),Pune,Chinese & Pan-Asian,3.9,350,0.25,1
+REST-020,Biryani Bites (Italian),Mumbai,Italian & Fast Food,4.4,350,0.2,0
+REST-021,Sweet Treat (Italian),Delhi NCR,Italian & Fast Food,4.1,600,0.21,0
+REST-022,Flavors of Central (South),Bengaluru,South Indian,4.7,600,0.18,1
+REST-023,Slice of House (Healthy),Pune,Healthy & Salads,4.1,350,0.22,0
+REST-024,Tandoori Treat (North),Pune,North Indian,4.9,450,0.2,0
+REST-025,The Spice Bites (Chinese),Pune,Chinese & Pan-Asian,3.9,350,0.25,0
+REST-026,Flavors of Kitchen (Healthy),Bengaluru,Healthy & Salads,4.0,600,0.22,0
+REST-027,Wok & Dhaba (North),Hyderabad,North Indian,3.4,800,0.19,1
+REST-028,Cafe Bites (Biryani),Hyderabad,Biryani & Mughlai,4.1,350,0.26,0
+REST-029,Tandoori Tales (Desserts),Bengaluru,Desserts & Bakery,3.6,350,0.22,0
+REST-030,Slice of Dhaba (Healthy),Hyderabad,Healthy & Salads,3.6,600,0.19,0
+REST-031,Sweet Craft (Desserts),Mumbai,Desserts & Bakery,4.7,1400,0.19,0
+REST-032,Royal Central (South),Delhi NCR,South Indian,4.4,800,0.25,0
+REST-033,Wok & Palace (Healthy),Mumbai,Healthy & Salads,4.8,1100,0.27,0
+REST-034,Green Dhaba (North),Mumbai,North Indian,3.6,350,0.22,0
+REST-035,Golden Craft (Italian),Mumbai,Italian & Fast Food,3.6,600,0.2,1
+REST-036,Grand Tales (South),Delhi NCR,South Indian,4.3,1400,0.26,1
+REST-037,Green Corner (Healthy),Bengaluru,Healthy & Salads,3.7,1100,0.25,0
+REST-038,Biryani Kitchen (Chinese),Delhi NCR,Chinese & Pan-Asian,4.6,450,0.22,0
+REST-039,Grand Dhaba (Biryani),Mumbai,Biryani & Mughlai,4.2,350,0.27,0
+REST-040,Tandoori House (Biryani),Bengaluru,Biryani & Mughlai,4.7,800,0.23,0
+REST-041,Slice of Express (Biryani),Bengaluru,Biryani & Mughlai,4.8,350,0.24,1
+REST-042,Curry Treat (North),Hyderabad,North Indian,3.5,350,0.23,0
+REST-043,Wok & Hub (Healthy),Bengaluru,Healthy & Salads,4.6,800,0.19,0
+REST-044,Cafe Central (South),Delhi NCR,South Indian,3.6,350,0.19,0
+REST-045,Slice of Palace (Biryani),Hyderabad,Biryani & Mughlai,4.2,800,0.21,1
+REST-046,Wok & House (Italian),Delhi NCR,Italian & Fast Food,3.8,450,0.27,1
+REST-047,Bistro Central (North),Mumbai,North Indian,4.3,600,0.19,0
+REST-048,Flavors of Tales (Healthy),Mumbai,Healthy & Salads,3.4,800,0.23,0
+REST-049,Sweet Tales (Desserts),Hyderabad,Desserts & Bakery,3.8,600,0.25,0
+REST-050,Curry Tales (Desserts),Mumbai,Desserts & Bakery,4.7,350,0.26,0
+REST-051,Cafe Dhaba (Chinese),Hyderabad,Chinese & Pan-Asian,3.8,1100,0.23,1
+REST-052,Golden Kitchen (South),Bengaluru,South Indian,4.1,1100,0.22,0
+REST-053,Slice of Dhaba (Chinese),Pune,Chinese & Pan-Asian,4.7,1400,0.2,1
+REST-054,Royal Kitchen (South),Hyderabad,South Indian,4.7,350,0.18,0
+REST-055,Tandoori Spot (Chinese),Pune,Chinese & Pan-Asian,3.6,350,0.2,0
+REST-056,Tandoori Spot (Biryani),Bengaluru,Biryani & Mughlai,4.5,600,0.24,1
+REST-057,Cafe Bites (North),Hyderabad,North Indian,4.8,450,0.26,0
+REST-058,Tandoori Dhaba (North),Bengaluru,North Indian,4.7,600,0.21,0
+REST-059,Bistro Kitchen (South),Bengaluru,South Indian,4.0,600,0.25,0
+REST-060,Bistro Boutique (Biryani),Delhi NCR,Biryani & Mughlai,4.3,800,0.25,0

@@ -1,0 +1,501 @@
+customer_id,customer_name,email,phone,city,signup_date,customer_segment,gender
+CUST-0001,Pooja Sharma,pooja.sharma260@example.com,+91-7731428289,Bengaluru,2023-10-19,Occasional,Prefer Not to Say
+CUST-0002,Karan Menon,karan.menon99@example.com,+91-8934965302,Delhi NCR,2024-03-06,Regular,Prefer Not to Say
+CUST-0003,Rohan Sharma,rohan.sharma248@example.com,+91-8655988907,Mumbai,2023-09-20,Gold Member,Male
+CUST-0004,Aditi Yadav,aditi.yadav728@example.com,+91-8785664987,Mumbai,2024-04-28,Occasional,Male
+CUST-0005,Siddharth Bose,siddharth.bose838@example.com,+91-9848510851,Delhi NCR,2023-10-21,Regular,Prefer Not to Say
+CUST-0006,Rahul Jain,rahul.jain294@example.com,+91-7509438221,Mumbai,2023-11-22,Occasional,Female
+CUST-0007,Isha Mehta,isha.mehta109@example.com,+91-8176355082,Hyderabad,2023-12-12,Gold Member,Male
+CUST-0008,Amit Verma,amit.verma559@example.com,+91-7409059615,Mumbai,2024-01-22,Gold Member,Prefer Not to Say
+CUST-0009,Sneha Yadav,sneha.yadav643@example.com,+91-9901457400,Bengaluru,2024-04-17,Regular,Female
+CUST-0010,Aditya Jain,aditya.jain687@example.com,+91-7746747930,Bengaluru,2023-06-24,Regular,Male
+CUST-0011,Sneha Rao,sneha.rao294@example.com,+91-8485793320,Delhi NCR,2023-12-12,Gold Member,Male
+CUST-0012,Swati Nair,swati.nair224@example.com,+91-9196044993,Bengaluru,2023-11-29,Regular,Female
+CUST-0013,Vikram Bhat,vikram.bhat556@example.com,+91-9389242087,Bengaluru,2023-08-27,Occasional,Prefer Not to Say
+CUST-0014,Rahul Bose,rahul.bose957@example.com,+91-9097183000,Mumbai,2023-10-17,Regular,Female
+CUST-0015,Siddharth Menon,siddharth.menon244@example.com,+91-9692814207,Delhi NCR,2023-06-29,Gold Member,Female
+CUST-0016,Gaurav Deshmukh,gaurav.deshmukh226@example.com,+91-9992184341,Delhi NCR,2023-07-04,Gold Member,Female
+CUST-0017,Gaurav Reddy,gaurav.reddy415@example.com,+91-9898994259,Mumbai,2024-02-11,Occasional,Prefer Not to Say
+CUST-0018,Shreya Iyer,shreya.iyer262@example.com,+91-9441183579,Pune,2023-08-11,Occasional,Female
+CUST-0019,Amit Joshi,amit.joshi418@example.com,+91-8186138746,Bengaluru,2024-03-25,Gold Member,Female
+CUST-0020,Arjun Singh,arjun.singh783@example.com,+91-7154324371,Delhi NCR,2023-07-17,Regular,Female
+CUST-0021,Neha Das,neha.das442@example.com,+91-8954318326,Mumbai,2024-05-14,Regular,Male
+CUST-0022,Rishi Deshmukh,rishi.deshmukh551@example.com,+91-7823882512,Mumbai,2024-01-26,Occasional,Prefer Not to Say
+CUST-0023,Aarav Menon,aarav.menon708@example.com,+91-9899280381,Mumbai,2023-07-29,Regular,Prefer Not to Say
+CUST-0024,Tanvi Das,tanvi.das310@example.com,+91-8424630730,Bengaluru,2023-07-28,Regular,Female
+CUST-0025,Shreya Sharma,shreya.sharma522@example.com,+91-9496733416,Delhi NCR,2023-10-13,Gold Member,Prefer Not to Say
+CUST-0026,Karan Das,karan.das529@example.com,+91-8995436071,Pune,2024-04-23,Occasional,Female
+CUST-0027,Neha Chopra,neha.chopra986@example.com,+91-9551479514,Pune,2024-03-03,Occasional,Male
+CUST-0028,Aarav Bhat,aarav.bhat29@example.com,+91-7366557576,Delhi NCR,2024-02-06,Occasional,Female
+CUST-0029,Meera Rao,meera.rao909@example.com,+91-8859120322,Mumbai,2023-10-02,Gold Member,Male
+CUST-0030,Sneha Chatterjee,sneha.chatterjee794@example.com,+91-7412026828,Mumbai,2024-02-28,Regular,Male
+CUST-0031,Deepak Yadav,deepak.yadav550@example.com,+91-9858789507,Bengaluru,2023-10-14,Regular,Male
+CUST-0032,Nidhi Reddy,nidhi.reddy215@example.com,+91-9336150857,Hyderabad,2024-05-19,Regular,Prefer Not to Say
+CUST-0033,Riya Menon,riya.menon458@example.com,+91-9947877839,Bengaluru,2023-12-09,Regular,Prefer Not to Say
+CUST-0034,Manish Mehta,manish.mehta75@example.com,+91-8107812757,Mumbai,2023-09-24,Occasional,Male
+CUST-0035,Siddharth Joshi,siddharth.joshi82@example.com,+91-9319492719,Mumbai,2023-06-04,Occasional,Male
+CUST-0036,Ananya Rao,ananya.rao890@example.com,+91-8082719287,Hyderabad,2023-06-17,Gold Member,Male
+CUST-0037,Kavya Gupta,kavya.gupta229@example.com,+91-8766927342,Mumbai,2024-02-04,Occasional,Prefer Not to Say
+CUST-0038,Deepak Rao,deepak.rao204@example.com,+91-7309022704,Delhi NCR,2023-12-26,Regular,Female
+CUST-0039,Nidhi Chopra,nidhi.chopra488@example.com,+91-9830617100,Hyderabad,2023-12-28,Gold Member,Female
+CUST-0040,Karan Verma,karan.verma829@example.com,+91-9823524322,Bengaluru,2023-11-21,Gold Member,Female
+CUST-0041,Kavya Reddy,kavya.reddy469@example.com,+91-7459365296,Hyderabad,2024-03-01,Regular,Male
+CUST-0042,Priya Gupta,priya.gupta905@example.com,+91-7247068082,Bengaluru,2023-10-06,Gold Member,Female
+CUST-0043,Karan Verma,karan.verma866@example.com,+91-7048322224,Bengaluru,2024-03-03,Regular,Prefer Not to Say
+CUST-0044,Kavya Nair,kavya.nair502@example.com,+91-7700462565,Delhi NCR,2024-02-04,Regular,Female
+CUST-0045,Ananya Nair,ananya.nair409@example.com,+91-7869069638,Hyderabad,2023-06-02,Regular,Female
+CUST-0046,Varun Kulkarni,varun.kulkarni687@example.com,+91-9354073788,Mumbai,2024-03-11,Regular,Prefer Not to Say
+CUST-0047,Neha Reddy,neha.reddy69@example.com,+91-8897881066,Hyderabad,2023-09-20,Regular,Female
+CUST-0048,Ananya Kapoor,ananya.kapoor608@example.com,+91-8562375909,Hyderabad,2023-06-26,Regular,Male
+CUST-0049,Rahul Verma,rahul.verma881@example.com,+91-7608918981,Bengaluru,2023-07-12,Regular,Prefer Not to Say
+CUST-0050,Vikram Menon,vikram.menon132@example.com,+91-9917284668,Mumbai,2023-12-24,Gold Member,Male
+CUST-0051,Kavya Joshi,kavya.joshi644@example.com,+91-7268664948,Mumbai,2023-06-21,Regular,Prefer Not to Say
+CUST-0052,Gaurav Gupta,gaurav.gupta743@example.com,+91-8029541285,Bengaluru,2024-05-08,Regular,Male
+CUST-0053,Amit Deshmukh,amit.deshmukh670@example.com,+91-7983069929,Pune,2024-05-09,Gold Member,Male
+CUST-0054,Gaurav Patel,gaurav.patel646@example.com,+91-8844823104,Bengaluru,2024-01-21,Occasional,Male
+CUST-0055,Vikram Yadav,vikram.yadav281@example.com,+91-7434055745,Mumbai,2024-02-15,Gold Member,Male
+CUST-0056,Vikram Rao,vikram.rao171@example.com,+91-8435881200,Bengaluru,2023-10-24,Gold Member,Female
+CUST-0057,Meera Bhat,meera.bhat18@example.com,+91-9188482692,Pune,2024-02-26,Occasional,Prefer Not to Say
+CUST-0058,Meera Menon,meera.menon280@example.com,+91-7378224029,Delhi NCR,2023-08-08,Occasional,Male
+CUST-0059,Neha Gupta,neha.gupta225@example.com,+91-9351454942,Hyderabad,2024-04-05,Gold Member,Female
+CUST-0060,Divya Menon,divya.menon527@example.com,+91-8600842914,Hyderabad,2023-10-14,Regular,Prefer Not to Say
+CUST-0061,Ananya Patel,ananya.patel859@example.com,+91-7906615778,Hyderabad,2024-01-03,Occasional,Prefer Not to Say
+CUST-0062,Aarav Kapoor,aarav.kapoor278@example.com,+91-7529467912,Bengaluru,2024-04-22,Gold Member,Male
+CUST-0063,Nidhi Yadav,nidhi.yadav87@example.com,+91-9893729536,Mumbai,2023-07-28,Regular,Male
+CUST-0064,Rohan Chopra,rohan.chopra161@example.com,+91-8408326704,Hyderabad,2024-03-09,Occasional,Prefer Not to Say
+CUST-0065,Rohan Malhotra,rohan.malhotra930@example.com,+91-8172437535,Mumbai,2023-06-21,Regular,Female
+CUST-0066,Kavya Menon,kavya.menon808@example.com,+91-8834663264,Bengaluru,2023-11-29,Gold Member,Male
+CUST-0067,Neha Rao,neha.rao912@example.com,+91-8351013248,Mumbai,2023-08-30,Regular,Male
+CUST-0068,Priya Kapoor,priya.kapoor894@example.com,+91-9408642527,Pune,2024-05-08,Regular,Female
+CUST-0069,Tanvi Nair,tanvi.nair401@example.com,+91-9857915075,Bengaluru,2023-07-26,Regular,Prefer Not to Say
+CUST-0070,Deepak Rao,deepak.rao368@example.com,+91-8000039831,Bengaluru,2024-01-22,Occasional,Male
+CUST-0071,Siddharth Sharma,siddharth.sharma418@example.com,+91-8075646517,Pune,2023-09-07,Regular,Prefer Not to Say
+CUST-0072,Vikram Gupta,vikram.gupta531@example.com,+91-8309699065,Bengaluru,2024-04-24,Regular,Female
+CUST-0073,Isha Sharma,isha.sharma192@example.com,+91-8902444795,Bengaluru,2023-10-12,Gold Member,Male
+CUST-0074,Rohan Mehta,rohan.mehta363@example.com,+91-9387251114,Delhi NCR,2024-01-09,Regular,Prefer Not to Say
+CUST-0075,Nidhi Bhat,nidhi.bhat404@example.com,+91-9947485574,Mumbai,2023-07-30,Regular,Prefer Not to Say
+CUST-0076,Aditya Gupta,aditya.gupta11@example.com,+91-8703680575,Pune,2024-01-10,Gold Member,Male
+CUST-0077,Aditya Chopra,aditya.chopra981@example.com,+91-9176553279,Mumbai,2023-07-06,Regular,Female
+CUST-0078,Gaurav Menon,gaurav.menon529@example.com,+91-8013497410,Pune,2023-11-01,Gold Member,Male
+CUST-0079,Rajesh Kapoor,rajesh.kapoor312@example.com,+91-8816626683,Delhi NCR,2024-05-22,Occasional,Female
+CUST-0080,Aditya Kulkarni,aditya.kulkarni703@example.com,+91-9451432810,Mumbai,2023-12-12,Regular,Prefer Not to Say
+CUST-0081,Meera Deshmukh,meera.deshmukh321@example.com,+91-7940137549,Bengaluru,2023-06-01,Regular,Prefer Not to Say
+CUST-0082,Nidhi Joshi,nidhi.joshi339@example.com,+91-8523667905,Delhi NCR,2024-05-01,Regular,Prefer Not to Say
+CUST-0083,Manish Menon,manish.menon494@example.com,+91-9600932241,Mumbai,2024-02-17,Occasional,Male
+CUST-0084,Sneha Malhotra,sneha.malhotra658@example.com,+91-9029153933,Bengaluru,2024-05-05,Gold Member,Prefer Not to Say
+CUST-0085,Sneha Rao,sneha.rao240@example.com,+91-9642936100,Mumbai,2023-11-06,Regular,Prefer Not to Say
+CUST-0086,Neha Sharma,neha.sharma496@example.com,+91-9003019545,Delhi NCR,2023-10-04,Gold Member,Male
+CUST-0087,Shreya Kulkarni,shreya.kulkarni209@example.com,+91-9353860328,Bengaluru,2024-03-21,Gold Member,Prefer Not to Say
+CUST-0088,Anjali Deshmukh,anjali.deshmukh681@example.com,+91-9253210726,Delhi NCR,2023-08-15,Gold Member,Male
+CUST-0089,Karan Kulkarni,karan.kulkarni833@example.com,+91-9280377889,Delhi NCR,2023-08-30,Regular,Male
+CUST-0090,Shreya Verma,shreya.verma949@example.com,+91-9779825906,Pune,2023-10-06,Gold Member,Prefer Not to Say
+CUST-0091,Shreya Iyer,shreya.iyer553@example.com,+91-8831488047,Bengaluru,2024-05-07,Gold Member,Female
+CUST-0092,Gaurav Bose,gaurav.bose446@example.com,+91-9721681810,Pune,2024-02-14,Occasional,Prefer Not to Say
+CUST-0093,Manish Nair,manish.nair470@example.com,+91-7849342406,Mumbai,2024-01-30,Regular,Prefer Not to Say
+CUST-0094,Tanvi Singh,tanvi.singh254@example.com,+91-7899867654,Hyderabad,2024-04-16,Regular,Female
+CUST-0095,Vikram Jain,vikram.jain288@example.com,+91-8100551904,Bengaluru,2023-09-29,Gold Member,Female
+CUST-0096,Sneha Iyer,sneha.iyer402@example.com,+91-9273930028,Mumbai,2023-09-27,Occasional,Male
+CUST-0097,Divya Patel,divya.patel348@example.com,+91-8778071069,Pune,2023-12-26,Regular,Female
+CUST-0098,Rajesh Verma,rajesh.verma408@example.com,+91-9964986556,Bengaluru,2024-01-02,Regular,Male
+CUST-0099,Aditi Joshi,aditi.joshi16@example.com,+91-8152649139,Delhi NCR,2024-01-31,Occasional,Female
+CUST-0100,Rishi Kulkarni,rishi.kulkarni829@example.com,+91-8976738906,Hyderabad,2024-03-06,Occasional,Prefer Not to Say
+CUST-0101,Anjali Rao,anjali.rao507@example.com,+91-7095160968,Delhi NCR,2024-01-10,Gold Member,Female
+CUST-0102,Isha Menon,isha.menon751@example.com,+91-7540871261,Mumbai,2023-12-25,Occasional,Prefer Not to Say
+CUST-0103,Arjun Bhat,arjun.bhat938@example.com,+91-8291187580,Delhi NCR,2023-06-14,Gold Member,Prefer Not to Say
+CUST-0104,Aditi Patel,aditi.patel148@example.com,+91-9840470515,Mumbai,2024-01-06,Regular,Prefer Not to Say
+CUST-0105,Priya Verma,priya.verma345@example.com,+91-7693569598,Mumbai,2023-12-12,Gold Member,Female
+CUST-0106,Gaurav Kapoor,gaurav.kapoor780@example.com,+91-9726065255,Delhi NCR,2023-10-21,Regular,Female
+CUST-0107,Amit Patel,amit.patel777@example.com,+91-8767516826,Delhi NCR,2023-06-10,Gold Member,Female
+CUST-0108,Naveen Rao,naveen.rao809@example.com,+91-9135615276,Delhi NCR,2023-07-06,Gold Member,Prefer Not to Say
+CUST-0109,Aditi Rao,aditi.rao646@example.com,+91-7499341266,Bengaluru,2023-06-11,Regular,Male
+CUST-0110,Arjun Chatterjee,arjun.chatterjee587@example.com,+91-7714270952,Delhi NCR,2023-07-29,Occasional,Prefer Not to Say
+CUST-0111,Amit Chopra,amit.chopra631@example.com,+91-9450825012,Delhi NCR,2024-04-06,Regular,Male
+CUST-0112,Rahul Malhotra,rahul.malhotra36@example.com,+91-8022285470,Mumbai,2024-03-23,Regular,Male
+CUST-0113,Rishi Deshmukh,rishi.deshmukh87@example.com,+91-8940192213,Mumbai,2023-09-10,Gold Member,Prefer Not to Say
+CUST-0114,Kavya Mehta,kavya.mehta880@example.com,+91-9242188697,Pune,2023-11-02,Regular,Prefer Not to Say
+CUST-0115,Pooja Joshi,pooja.joshi555@example.com,+91-8403796706,Hyderabad,2023-11-25,Regular,Male
+CUST-0116,Swati Patel,swati.patel359@example.com,+91-7041465057,Hyderabad,2024-04-27,Regular,Prefer Not to Say
+CUST-0117,Anjali Mehta,anjali.mehta660@example.com,+91-9921570258,Delhi NCR,2023-12-03,Regular,Female
+CUST-0118,Neha Kulkarni,neha.kulkarni998@example.com,+91-9131445400,Mumbai,2024-02-23,Regular,Male
+CUST-0119,Deepak Bose,deepak.bose284@example.com,+91-8056142177,Bengaluru,2024-03-30,Gold Member,Female
+CUST-0120,Sneha Gupta,sneha.gupta778@example.com,+91-8522784691,Delhi NCR,2023-10-03,Gold Member,Female
+CUST-0121,Rishi Kapoor,rishi.kapoor881@example.com,+91-8065033834,Pune,2024-02-09,Occasional,Male
+CUST-0122,Anjali Reddy,anjali.reddy358@example.com,+91-7916388139,Pune,2023-10-11,Regular,Female
+CUST-0123,Tanvi Yadav,tanvi.yadav980@example.com,+91-7626021221,Mumbai,2024-02-20,Occasional,Male
+CUST-0124,Kavya Kulkarni,kavya.kulkarni786@example.com,+91-7787472402,Bengaluru,2024-03-11,Occasional,Female
+CUST-0125,Anjali Bose,anjali.bose311@example.com,+91-7726163005,Pune,2023-07-18,Occasional,Male
+CUST-0126,Kavya Malhotra,kavya.malhotra387@example.com,+91-8550782544,Bengaluru,2024-03-24,Regular,Prefer Not to Say
+CUST-0127,Naveen Kulkarni,naveen.kulkarni348@example.com,+91-8152869473,Hyderabad,2024-03-08,Regular,Prefer Not to Say
+CUST-0128,Tanvi Malhotra,tanvi.malhotra133@example.com,+91-9363535242,Mumbai,2023-09-27,Regular,Female
+CUST-0129,Gaurav Mehta,gaurav.mehta983@example.com,+91-9497534267,Pune,2024-03-01,Regular,Prefer Not to Say
+CUST-0130,Aditya Reddy,aditya.reddy293@example.com,+91-9374387278,Delhi NCR,2024-02-03,Gold Member,Prefer Not to Say
+CUST-0131,Varun Mehta,varun.mehta242@example.com,+91-8182533519,Delhi NCR,2023-10-30,Occasional,Male
+CUST-0132,Meera Sharma,meera.sharma139@example.com,+91-7898815965,Mumbai,2024-02-29,Regular,Prefer Not to Say
+CUST-0133,Ananya Yadav,ananya.yadav976@example.com,+91-7413793606,Hyderabad,2024-05-23,Regular,Female
+CUST-0134,Anjali Mehta,anjali.mehta301@example.com,+91-8538172746,Delhi NCR,2024-03-20,Regular,Male
+CUST-0135,Manish Kapoor,manish.kapoor268@example.com,+91-9823672616,Bengaluru,2023-06-27,Regular,Male
+CUST-0136,Pooja Patel,pooja.patel85@example.com,+91-8890792502,Hyderabad,2024-02-07,Occasional,Female
+CUST-0137,Ananya Iyer,ananya.iyer981@example.com,+91-7995621164,Hyderabad,2024-03-15,Occasional,Male
+CUST-0138,Kavya Mehta,kavya.mehta630@example.com,+91-8953391057,Bengaluru,2023-12-31,Regular,Prefer Not to Say
+CUST-0139,Siddharth Singh,siddharth.singh940@example.com,+91-8450748974,Hyderabad,2024-01-17,Regular,Female
+CUST-0140,Nidhi Malhotra,nidhi.malhotra71@example.com,+91-8997623006,Delhi NCR,2024-04-13,Occasional,Prefer Not to Say
+CUST-0141,Divya Das,divya.das686@example.com,+91-7266030585,Hyderabad,2023-10-14,Regular,Male
+CUST-0142,Kavya Nair,kavya.nair170@example.com,+91-7008763545,Bengaluru,2023-07-09,Gold Member,Prefer Not to Say
+CUST-0143,Manish Jain,manish.jain308@example.com,+91-7106940340,Delhi NCR,2024-01-27,Gold Member,Prefer Not to Say
+CUST-0144,Varun Jain,varun.jain890@example.com,+91-8487719329,Bengaluru,2024-05-25,Regular,Female
+CUST-0145,Siddharth Gupta,siddharth.gupta687@example.com,+91-9634235928,Bengaluru,2024-03-28,Regular,Prefer Not to Say
+CUST-0146,Nidhi Mehta,nidhi.mehta673@example.com,+91-7488244816,Mumbai,2023-09-24,Gold Member,Prefer Not to Say
+CUST-0147,Neha Patel,neha.patel821@example.com,+91-8007987993,Hyderabad,2023-08-24,Regular,Male
+CUST-0148,Varun Bose,varun.bose715@example.com,+91-7996462757,Mumbai,2024-01-26,Regular,Male
+CUST-0149,Tanvi Singh,tanvi.singh458@example.com,+91-7263588385,Hyderabad,2024-02-08,Gold Member,Prefer Not to Say
+CUST-0150,Rohan Kulkarni,rohan.kulkarni628@example.com,+91-7820413390,Delhi NCR,2023-11-13,Gold Member,Prefer Not to Say
+CUST-0151,Sneha Rao,sneha.rao611@example.com,+91-7067998117,Mumbai,2024-03-21,Regular,Prefer Not to Say
+CUST-0152,Tanvi Joshi,tanvi.joshi491@example.com,+91-8700595394,Delhi NCR,2023-08-29,Regular,Male
+CUST-0153,Manish Gupta,manish.gupta456@example.com,+91-9080074451,Delhi NCR,2024-03-26,Occasional,Male
+CUST-0154,Sneha Chatterjee,sneha.chatterjee351@example.com,+91-8052097835,Bengaluru,2023-12-27,Regular,Female
+CUST-0155,Karan Nair,karan.nair720@example.com,+91-8623547777,Hyderabad,2023-12-28,Regular,Female
+CUST-0156,Riya Yadav,riya.yadav100@example.com,+91-8030643082,Bengaluru,2024-01-19,Gold Member,Male
+CUST-0157,Gaurav Mehta,gaurav.mehta854@example.com,+91-7003796200,Mumbai,2024-02-19,Occasional,Female
+CUST-0158,Shreya Kulkarni,shreya.kulkarni540@example.com,+91-8185491609,Hyderabad,2023-09-05,Regular,Male
+CUST-0159,Anjali Das,anjali.das218@example.com,+91-7875081987,Bengaluru,2023-06-27,Gold Member,Female
+CUST-0160,Arjun Malhotra,arjun.malhotra506@example.com,+91-7397813783,Mumbai,2024-05-23,Regular,Female
+CUST-0161,Kavya Jain,kavya.jain574@example.com,+91-7044882384,Delhi NCR,2023-11-07,Regular,Male
+CUST-0162,Rajesh Patel,rajesh.patel482@example.com,+91-7384994896,Delhi NCR,2023-07-29,Regular,Male
+CUST-0163,Neha Chatterjee,neha.chatterjee531@example.com,+91-9311445838,Pune,2023-10-28,Regular,Prefer Not to Say
+CUST-0164,Rajesh Chatterjee,rajesh.chatterjee477@example.com,+91-8806328958,Delhi NCR,2023-10-03,Regular,Female
+CUST-0165,Rishi Reddy,rishi.reddy774@example.com,+91-9881327892,Bengaluru,2024-02-16,Gold Member,Prefer Not to Say
+CUST-0166,Vikram Gupta,vikram.gupta966@example.com,+91-9581176550,Bengaluru,2023-11-22,Occasional,Female
+CUST-0167,Tanvi Sharma,tanvi.sharma867@example.com,+91-8923286011,Mumbai,2023-10-31,Gold Member,Female
+CUST-0168,Anjali Iyer,anjali.iyer505@example.com,+91-8130953573,Mumbai,2024-03-02,Gold Member,Female
+CUST-0169,Rishi Bose,rishi.bose724@example.com,+91-7782584946,Hyderabad,2023-09-05,Regular,Female
+CUST-0170,Rishi Rao,rishi.rao335@example.com,+91-9440271993,Bengaluru,2023-06-23,Gold Member,Female
+CUST-0171,Rishi Deshmukh,rishi.deshmukh165@example.com,+91-8623014852,Bengaluru,2024-04-29,Regular,Prefer Not to Say
+CUST-0172,Arjun Singh,arjun.singh900@example.com,+91-7328867711,Mumbai,2023-11-17,Regular,Prefer Not to Say
+CUST-0173,Karan Singh,karan.singh749@example.com,+91-7472363736,Bengaluru,2023-06-08,Regular,Female
+CUST-0174,Neha Patel,neha.patel356@example.com,+91-9042262098,Delhi NCR,2023-10-14,Gold Member,Female
+CUST-0175,Sneha Kapoor,sneha.kapoor399@example.com,+91-8037692155,Bengaluru,2024-02-29,Regular,Prefer Not to Say
+CUST-0176,Anjali Yadav,anjali.yadav80@example.com,+91-7769292727,Bengaluru,2024-04-12,Occasional,Male
+CUST-0177,Varun Rao,varun.rao454@example.com,+91-7322593066,Delhi NCR,2023-07-17,Gold Member,Prefer Not to Say
+CUST-0178,Karan Bose,karan.bose316@example.com,+91-9960313794,Mumbai,2024-05-21,Regular,Male
+CUST-0179,Rohan Kapoor,rohan.kapoor377@example.com,+91-8228266450,Mumbai,2023-10-29,Regular,Male
+CUST-0180,Neha Rao,neha.rao589@example.com,+91-9234133600,Pune,2023-12-28,Regular,Prefer Not to Say
+CUST-0181,Rahul Nair,rahul.nair901@example.com,+91-8253591226,Bengaluru,2024-04-08,Regular,Male
+CUST-0182,Kavya Chatterjee,kavya.chatterjee247@example.com,+91-8511093611,Bengaluru,2023-08-13,Regular,Prefer Not to Say
+CUST-0183,Amit Bose,amit.bose19@example.com,+91-9945570981,Pune,2024-05-07,Regular,Female
+CUST-0184,Varun Menon,varun.menon85@example.com,+91-8447455293,Pune,2023-08-20,Occasional,Prefer Not to Say
+CUST-0185,Meera Das,meera.das266@example.com,+91-8496949599,Mumbai,2024-05-19,Gold Member,Female
+CUST-0186,Aditya Deshmukh,aditya.deshmukh252@example.com,+91-8249684963,Mumbai,2023-07-25,Gold Member,Female
+CUST-0187,Naveen Joshi,naveen.joshi312@example.com,+91-7071896275,Mumbai,2024-05-24,Regular,Female
+CUST-0188,Riya Gupta,riya.gupta895@example.com,+91-9247216428,Mumbai,2024-03-16,Regular,Male
+CUST-0189,Anjali Malhotra,anjali.malhotra831@example.com,+91-8154438705,Hyderabad,2024-04-06,Gold Member,Male
+CUST-0190,Aditya Bhat,aditya.bhat783@example.com,+91-9362396400,Hyderabad,2024-05-13,Regular,Female
+CUST-0191,Arjun Das,arjun.das671@example.com,+91-7129150492,Mumbai,2024-04-17,Regular,Male
+CUST-0192,Manish Verma,manish.verma759@example.com,+91-7430621813,Delhi NCR,2023-12-04,Occasional,Prefer Not to Say
+CUST-0193,Varun Kapoor,varun.kapoor189@example.com,+91-7657927322,Delhi NCR,2023-12-30,Occasional,Prefer Not to Say
+CUST-0194,Swati Singh,swati.singh860@example.com,+91-7539143681,Bengaluru,2023-10-18,Gold Member,Prefer Not to Say
+CUST-0195,Deepak Malhotra,deepak.malhotra833@example.com,+91-7377371385,Delhi NCR,2023-11-21,Occasional,Prefer Not to Say
+CUST-0196,Vikram Iyer,vikram.iyer751@example.com,+91-9209862089,Pune,2024-05-12,Regular,Male
+CUST-0197,Swati Patel,swati.patel280@example.com,+91-8758226199,Bengaluru,2023-06-08,Occasional,Female
+CUST-0198,Shreya Chopra,shreya.chopra278@example.com,+91-8915459941,Bengaluru,2024-05-10,Occasional,Prefer Not to Say
+CUST-0199,Swati Mehta,swati.mehta492@example.com,+91-7082091205,Hyderabad,2023-09-28,Regular,Prefer Not to Say
+CUST-0200,Gaurav Bhat,gaurav.bhat74@example.com,+91-9082070852,Delhi NCR,2024-04-27,Occasional,Male
+CUST-0201,Meera Das,meera.das153@example.com,+91-7148514877,Mumbai,2023-07-30,Occasional,Female
+CUST-0202,Meera Chatterjee,meera.chatterjee250@example.com,+91-9907380457,Bengaluru,2023-07-20,Occasional,Male
+CUST-0203,Arjun Deshmukh,arjun.deshmukh696@example.com,+91-9435180804,Bengaluru,2023-12-07,Occasional,Female
+CUST-0204,Rajesh Joshi,rajesh.joshi916@example.com,+91-8359495841,Bengaluru,2023-08-19,Gold Member,Prefer Not to Say
+CUST-0205,Karan Chatterjee,karan.chatterjee971@example.com,+91-7916614288,Pune,2023-12-26,Gold Member,Prefer Not to Say
+CUST-0206,Swati Reddy,swati.reddy983@example.com,+91-7773657537,Bengaluru,2024-01-14,Occasional,Female
+CUST-0207,Karan Menon,karan.menon933@example.com,+91-9112957012,Pune,2024-03-05,Regular,Female
+CUST-0208,Ananya Deshmukh,ananya.deshmukh135@example.com,+91-9778869600,Delhi NCR,2023-09-06,Regular,Female
+CUST-0209,Sneha Menon,sneha.menon664@example.com,+91-8956712799,Bengaluru,2024-04-24,Regular,Male
+CUST-0210,Ananya Kapoor,ananya.kapoor815@example.com,+91-8850036896,Delhi NCR,2023-08-04,Occasional,Male
+CUST-0211,Vikram Yadav,vikram.yadav231@example.com,+91-9664240539,Hyderabad,2024-03-27,Occasional,Male
+CUST-0212,Isha Iyer,isha.iyer293@example.com,+91-9812828964,Mumbai,2023-06-02,Regular,Prefer Not to Say
+CUST-0213,Arjun Yadav,arjun.yadav122@example.com,+91-9166113379,Mumbai,2023-08-29,Regular,Female
+CUST-0214,Arjun Sharma,arjun.sharma612@example.com,+91-8060912068,Bengaluru,2023-09-30,Occasional,Female
+CUST-0215,Priya Gupta,priya.gupta769@example.com,+91-8379478955,Bengaluru,2023-08-04,Gold Member,Male
+CUST-0216,Pooja Patel,pooja.patel806@example.com,+91-8186377271,Mumbai,2024-01-16,Occasional,Female
+CUST-0217,Karan Bose,karan.bose978@example.com,+91-9015515683,Delhi NCR,2023-09-22,Gold Member,Prefer Not to Say
+CUST-0218,Meera Bose,meera.bose72@example.com,+91-8569562640,Mumbai,2023-06-16,Regular,Prefer Not to Say
+CUST-0219,Nidhi Menon,nidhi.menon739@example.com,+91-9980968138,Mumbai,2024-02-07,Occasional,Male
+CUST-0220,Vikram Patel,vikram.patel161@example.com,+91-7215226540,Delhi NCR,2024-04-07,Gold Member,Female
+CUST-0221,Tanvi Bhat,tanvi.bhat571@example.com,+91-9333552622,Mumbai,2024-03-26,Occasional,Prefer Not to Say
+CUST-0222,Rishi Bhat,rishi.bhat474@example.com,+91-8656589354,Bengaluru,2023-10-29,Regular,Prefer Not to Say
+CUST-0223,Nidhi Mehta,nidhi.mehta883@example.com,+91-9145395316,Hyderabad,2023-07-29,Occasional,Prefer Not to Say
+CUST-0224,Divya Kulkarni,divya.kulkarni433@example.com,+91-8110669441,Pune,2023-09-25,Occasional,Female
+CUST-0225,Riya Kulkarni,riya.kulkarni330@example.com,+91-8398450963,Bengaluru,2023-07-19,Gold Member,Prefer Not to Say
+CUST-0226,Amit Chopra,amit.chopra955@example.com,+91-8554018799,Hyderabad,2024-05-17,Regular,Male
+CUST-0227,Sneha Patel,sneha.patel108@example.com,+91-9439858843,Bengaluru,2024-01-08,Occasional,Male
+CUST-0228,Arjun Yadav,arjun.yadav989@example.com,+91-8840283620,Mumbai,2024-03-27,Regular,Male
+CUST-0229,Isha Menon,isha.menon372@example.com,+91-9862697207,Mumbai,2023-12-28,Regular,Male
+CUST-0230,Nidhi Verma,nidhi.verma329@example.com,+91-8152223579,Mumbai,2024-04-03,Gold Member,Female
+CUST-0231,Divya Iyer,divya.iyer239@example.com,+91-9776324184,Mumbai,2024-02-02,Regular,Prefer Not to Say
+CUST-0232,Naveen Yadav,naveen.yadav790@example.com,+91-7912885248,Delhi NCR,2023-07-29,Regular,Female
+CUST-0233,Siddharth Kulkarni,siddharth.kulkarni638@example.com,+91-9211794239,Pune,2024-04-14,Regular,Prefer Not to Say
+CUST-0234,Aditi Bhat,aditi.bhat283@example.com,+91-7094833647,Bengaluru,2024-05-21,Occasional,Prefer Not to Say
+CUST-0235,Tanvi Jain,tanvi.jain369@example.com,+91-7020033777,Mumbai,2023-11-21,Occasional,Female
+CUST-0236,Neha Joshi,neha.joshi81@example.com,+91-7464892991,Mumbai,2023-12-23,Occasional,Prefer Not to Say
+CUST-0237,Aditi Patel,aditi.patel230@example.com,+91-8232765028,Mumbai,2024-02-27,Occasional,Prefer Not to Say
+CUST-0238,Shreya Kapoor,shreya.kapoor329@example.com,+91-9364552517,Bengaluru,2023-12-07,Occasional,Male
+CUST-0239,Sneha Verma,sneha.verma782@example.com,+91-9024516522,Mumbai,2023-08-20,Regular,Male
+CUST-0240,Sneha Gupta,sneha.gupta444@example.com,+91-8591489570,Pune,2024-05-04,Regular,Female
+CUST-0241,Manish Kulkarni,manish.kulkarni783@example.com,+91-8678824918,Delhi NCR,2023-09-19,Regular,Female
+CUST-0242,Naveen Kulkarni,naveen.kulkarni704@example.com,+91-9223287743,Bengaluru,2023-10-24,Regular,Male
+CUST-0243,Anjali Singh,anjali.singh56@example.com,+91-7722561807,Delhi NCR,2023-11-05,Occasional,Prefer Not to Say
+CUST-0244,Ananya Sharma,ananya.sharma978@example.com,+91-7692127987,Mumbai,2023-11-02,Regular,Male
+CUST-0245,Amit Malhotra,amit.malhotra17@example.com,+91-8629866446,Pune,2023-08-01,Occasional,Female
+CUST-0246,Priya Iyer,priya.iyer730@example.com,+91-7754075570,Bengaluru,2024-02-28,Regular,Female
+CUST-0247,Naveen Patel,naveen.patel456@example.com,+91-7061470260,Mumbai,2023-06-22,Gold Member,Female
+CUST-0248,Vikram Kapoor,vikram.kapoor597@example.com,+91-8325293904,Bengaluru,2024-01-06,Regular,Prefer Not to Say
+CUST-0249,Rajesh Malhotra,rajesh.malhotra31@example.com,+91-8064232527,Delhi NCR,2023-12-25,Gold Member,Male
+CUST-0250,Shreya Jain,shreya.jain457@example.com,+91-9767223875,Pune,2023-07-16,Occasional,Female
+CUST-0251,Kavya Kulkarni,kavya.kulkarni546@example.com,+91-7257761873,Delhi NCR,2023-12-23,Regular,Prefer Not to Say
+CUST-0252,Meera Kapoor,meera.kapoor807@example.com,+91-7550920011,Bengaluru,2023-11-18,Occasional,Male
+CUST-0253,Pooja Singh,pooja.singh937@example.com,+91-9543555793,Delhi NCR,2023-09-08,Gold Member,Prefer Not to Say
+CUST-0254,Naveen Das,naveen.das115@example.com,+91-7479843550,Pune,2023-09-29,Occasional,Male
+CUST-0255,Aditya Nair,aditya.nair788@example.com,+91-9487595918,Pune,2023-08-18,Regular,Prefer Not to Say
+CUST-0256,Vikram Nair,vikram.nair485@example.com,+91-9472183889,Delhi NCR,2024-02-08,Regular,Prefer Not to Say
+CUST-0257,Manish Menon,manish.menon660@example.com,+91-9046452363,Pune,2024-04-25,Occasional,Prefer Not to Say
+CUST-0258,Gaurav Iyer,gaurav.iyer490@example.com,+91-8449092756,Mumbai,2023-07-05,Gold Member,Female
+CUST-0259,Meera Gupta,meera.gupta370@example.com,+91-8662419724,Bengaluru,2023-06-29,Occasional,Prefer Not to Say
+CUST-0260,Meera Bose,meera.bose68@example.com,+91-8208247627,Pune,2023-06-20,Gold Member,Female
+CUST-0261,Vikram Das,vikram.das618@example.com,+91-8661560394,Delhi NCR,2024-04-10,Regular,Male
+CUST-0262,Shreya Joshi,shreya.joshi470@example.com,+91-9978784928,Pune,2023-06-22,Occasional,Prefer Not to Say
+CUST-0263,Aditya Kapoor,aditya.kapoor523@example.com,+91-7494318109,Hyderabad,2024-01-30,Regular,Prefer Not to Say
+CUST-0264,Manish Mehta,manish.mehta526@example.com,+91-9117232617,Bengaluru,2023-07-14,Regular,Female
+CUST-0265,Rohan Rao,rohan.rao459@example.com,+91-8717278517,Mumbai,2024-01-11,Occasional,Prefer Not to Say
+CUST-0266,Rahul Chopra,rahul.chopra406@example.com,+91-8339454350,Hyderabad,2023-10-23,Occasional,Female
+CUST-0267,Ananya Das,ananya.das77@example.com,+91-8080322387,Pune,2023-11-19,Regular,Prefer Not to Say
+CUST-0268,Rishi Malhotra,rishi.malhotra997@example.com,+91-9969988997,Hyderabad,2024-05-02,Occasional,Female
+CUST-0269,Neha Kapoor,neha.kapoor689@example.com,+91-7463455851,Hyderabad,2024-03-25,Gold Member,Male
+CUST-0270,Meera Das,meera.das411@example.com,+91-7422587993,Bengaluru,2024-05-05,Gold Member,Prefer Not to Say
+CUST-0271,Sneha Malhotra,sneha.malhotra668@example.com,+91-9594153054,Pune,2023-12-10,Regular,Prefer Not to Say
+CUST-0272,Arjun Menon,arjun.menon944@example.com,+91-8724822249,Mumbai,2024-05-16,Regular,Prefer Not to Say
+CUST-0273,Nidhi Singh,nidhi.singh381@example.com,+91-8012033627,Delhi NCR,2023-06-10,Regular,Female
+CUST-0274,Divya Kapoor,divya.kapoor241@example.com,+91-7450730308,Mumbai,2023-09-07,Regular,Female
+CUST-0275,Vikram Malhotra,vikram.malhotra799@example.com,+91-8768779013,Bengaluru,2024-02-15,Occasional,Male
+CUST-0276,Rohan Menon,rohan.menon144@example.com,+91-8957059377,Bengaluru,2024-04-12,Occasional,Female
+CUST-0277,Neha Nair,neha.nair799@example.com,+91-9047131697,Delhi NCR,2024-05-20,Regular,Male
+CUST-0278,Manish Verma,manish.verma702@example.com,+91-9357941133,Hyderabad,2023-12-04,Regular,Female
+CUST-0279,Manish Bhat,manish.bhat249@example.com,+91-8749841348,Mumbai,2024-01-16,Gold Member,Female
+CUST-0280,Meera Chatterjee,meera.chatterjee704@example.com,+91-8869167749,Delhi NCR,2023-12-06,Regular,Male
+CUST-0281,Shreya Malhotra,shreya.malhotra550@example.com,+91-8371831241,Delhi NCR,2024-02-13,Gold Member,Female
+CUST-0282,Aditya Bhat,aditya.bhat63@example.com,+91-9101072991,Mumbai,2023-10-07,Gold Member,Male
+CUST-0283,Swati Yadav,swati.yadav881@example.com,+91-7408547363,Bengaluru,2024-02-20,Regular,Male
+CUST-0284,Sneha Nair,sneha.nair937@example.com,+91-8682129313,Bengaluru,2024-01-17,Regular,Female
+CUST-0285,Nidhi Patel,nidhi.patel915@example.com,+91-8145513495,Pune,2024-01-17,Regular,Male
+CUST-0286,Rajesh Verma,rajesh.verma392@example.com,+91-7772560615,Bengaluru,2024-02-13,Occasional,Female
+CUST-0287,Sneha Chopra,sneha.chopra336@example.com,+91-7324695191,Bengaluru,2023-06-15,Regular,Male
+CUST-0288,Isha Iyer,isha.iyer303@example.com,+91-9718971925,Hyderabad,2023-06-20,Occasional,Male
+CUST-0289,Arjun Jain,arjun.jain640@example.com,+91-7017220384,Mumbai,2024-01-16,Occasional,Female
+CUST-0290,Aditi Gupta,aditi.gupta571@example.com,+91-9383089807,Bengaluru,2023-08-16,Regular,Male
+CUST-0291,Nidhi Mehta,nidhi.mehta318@example.com,+91-7399216258,Bengaluru,2023-09-30,Occasional,Female
+CUST-0292,Kavya Kulkarni,kavya.kulkarni478@example.com,+91-7205824530,Bengaluru,2024-04-14,Regular,Prefer Not to Say
+CUST-0293,Anjali Bhat,anjali.bhat657@example.com,+91-8688785372,Delhi NCR,2023-06-09,Gold Member,Prefer Not to Say
+CUST-0294,Kavya Jain,kavya.jain449@example.com,+91-7005190584,Mumbai,2023-10-28,Gold Member,Male
+CUST-0295,Naveen Rao,naveen.rao201@example.com,+91-9177097584,Mumbai,2023-12-31,Gold Member,Prefer Not to Say
+CUST-0296,Sneha Singh,sneha.singh986@example.com,+91-8723781313,Mumbai,2023-07-05,Regular,Female
+CUST-0297,Aditi Deshmukh,aditi.deshmukh660@example.com,+91-8267758929,Mumbai,2023-06-23,Regular,Female
+CUST-0298,Amit Sharma,amit.sharma363@example.com,+91-7790196127,Hyderabad,2023-07-05,Regular,Female
+CUST-0299,Karan Joshi,karan.joshi146@example.com,+91-7145256176,Delhi NCR,2023-11-18,Gold Member,Prefer Not to Say
+CUST-0300,Isha Das,isha.das485@example.com,+91-9278672722,Mumbai,2024-05-16,Gold Member,Male
+CUST-0301,Priya Iyer,priya.iyer47@example.com,+91-7961536422,Mumbai,2024-01-21,Regular,Male
+CUST-0302,Rohan Reddy,rohan.reddy965@example.com,+91-8016077552,Mumbai,2023-11-09,Gold Member,Male
+CUST-0303,Riya Yadav,riya.yadav47@example.com,+91-9468394790,Mumbai,2023-10-08,Regular,Female
+CUST-0304,Aditya Malhotra,aditya.malhotra896@example.com,+91-9148753506,Mumbai,2023-06-25,Regular,Female
+CUST-0305,Tanvi Mehta,tanvi.mehta920@example.com,+91-8310767637,Bengaluru,2024-01-10,Regular,Female
+CUST-0306,Rishi Kapoor,rishi.kapoor718@example.com,+91-8630258148,Mumbai,2024-02-10,Occasional,Male
+CUST-0307,Tanvi Patel,tanvi.patel90@example.com,+91-8411088964,Delhi NCR,2024-01-04,Gold Member,Prefer Not to Say
+CUST-0308,Priya Yadav,priya.yadav115@example.com,+91-7262352981,Hyderabad,2023-11-12,Occasional,Female
+CUST-0309,Varun Malhotra,varun.malhotra744@example.com,+91-8396231842,Mumbai,2024-04-04,Regular,Female
+CUST-0310,Manish Chopra,manish.chopra754@example.com,+91-9850956210,Hyderabad,2023-06-22,Regular,Female
+CUST-0311,Nidhi Gupta,nidhi.gupta86@example.com,+91-9199393560,Mumbai,2023-06-30,Gold Member,Prefer Not to Say
+CUST-0312,Riya Chopra,riya.chopra173@example.com,+91-7102028714,Bengaluru,2024-05-13,Regular,Prefer Not to Say
+CUST-0313,Manish Verma,manish.verma251@example.com,+91-9551094562,Delhi NCR,2023-07-05,Regular,Male
+CUST-0314,Swati Chopra,swati.chopra43@example.com,+91-8982730111,Bengaluru,2024-03-17,Regular,Female
+CUST-0315,Manish Chopra,manish.chopra791@example.com,+91-7251985225,Mumbai,2024-01-14,Regular,Female
+CUST-0316,Arjun Singh,arjun.singh331@example.com,+91-9128446528,Delhi NCR,2023-12-21,Occasional,Female
+CUST-0317,Kavya Mehta,kavya.mehta521@example.com,+91-8696560723,Bengaluru,2023-09-04,Regular,Male
+CUST-0318,Pooja Gupta,pooja.gupta466@example.com,+91-7703190199,Mumbai,2024-05-26,Regular,Female
+CUST-0319,Varun Jain,varun.jain135@example.com,+91-7444719706,Bengaluru,2023-09-11,Gold Member,Female
+CUST-0320,Manish Nair,manish.nair99@example.com,+91-9655899381,Mumbai,2024-01-14,Regular,Prefer Not to Say
+CUST-0321,Gaurav Menon,gaurav.menon573@example.com,+91-8776548058,Mumbai,2023-07-04,Regular,Female
+CUST-0322,Meera Nair,meera.nair663@example.com,+91-7570457381,Mumbai,2024-05-24,Regular,Prefer Not to Say
+CUST-0323,Siddharth Mehta,siddharth.mehta252@example.com,+91-9589874752,Mumbai,2023-08-11,Occasional,Male
+CUST-0324,Aditi Chopra,aditi.chopra387@example.com,+91-8531582305,Delhi NCR,2024-03-20,Regular,Prefer Not to Say
+CUST-0325,Arjun Bhat,arjun.bhat326@example.com,+91-8304672739,Hyderabad,2023-07-04,Regular,Male
+CUST-0326,Rajesh Kulkarni,rajesh.kulkarni138@example.com,+91-8038894192,Mumbai,2023-07-08,Regular,Prefer Not to Say
+CUST-0327,Vikram Bose,vikram.bose539@example.com,+91-8128926821,Delhi NCR,2024-05-14,Regular,Female
+CUST-0328,Priya Iyer,priya.iyer942@example.com,+91-9844917263,Bengaluru,2024-02-13,Gold Member,Female
+CUST-0329,Pooja Singh,pooja.singh178@example.com,+91-7530752291,Bengaluru,2023-11-03,Regular,Male
+CUST-0330,Siddharth Chopra,siddharth.chopra876@example.com,+91-7258442847,Delhi NCR,2023-10-24,Regular,Prefer Not to Say
+CUST-0331,Aditya Das,aditya.das138@example.com,+91-9048049691,Bengaluru,2023-10-19,Occasional,Prefer Not to Say
+CUST-0332,Sneha Singh,sneha.singh616@example.com,+91-8902630210,Delhi NCR,2023-08-26,Gold Member,Prefer Not to Say
+CUST-0333,Rahul Menon,rahul.menon355@example.com,+91-9760883874,Mumbai,2024-04-05,Gold Member,Prefer Not to Say
+CUST-0334,Rohan Sharma,rohan.sharma981@example.com,+91-9101985598,Mumbai,2023-06-24,Gold Member,Male
+CUST-0335,Amit Das,amit.das436@example.com,+91-9025493753,Mumbai,2024-03-19,Regular,Male
+CUST-0336,Aditi Chatterjee,aditi.chatterjee306@example.com,+91-9103449596,Mumbai,2024-03-06,Occasional,Prefer Not to Say
+CUST-0337,Deepak Rao,deepak.rao314@example.com,+91-8486119564,Mumbai,2023-12-25,Regular,Prefer Not to Say
+CUST-0338,Ananya Nair,ananya.nair505@example.com,+91-8521836741,Bengaluru,2023-12-30,Occasional,Female
+CUST-0339,Isha Bhat,isha.bhat892@example.com,+91-9353951853,Mumbai,2023-11-08,Regular,Male
+CUST-0340,Naveen Deshmukh,naveen.deshmukh537@example.com,+91-8840423917,Pune,2023-12-07,Occasional,Male
+CUST-0341,Gaurav Rao,gaurav.rao283@example.com,+91-8473242495,Hyderabad,2023-08-02,Regular,Female
+CUST-0342,Neha Mehta,neha.mehta978@example.com,+91-8258790658,Mumbai,2023-10-27,Regular,Male
+CUST-0343,Rajesh Rao,rajesh.rao966@example.com,+91-8892950988,Pune,2023-11-15,Regular,Male
+CUST-0344,Aditya Nair,aditya.nair488@example.com,+91-8634350441,Delhi NCR,2024-02-19,Regular,Female
+CUST-0345,Anjali Sharma,anjali.sharma527@example.com,+91-8498241552,Hyderabad,2023-12-19,Gold Member,Male
+CUST-0346,Divya Joshi,divya.joshi61@example.com,+91-7921974866,Bengaluru,2023-06-25,Regular,Female
+CUST-0347,Deepak Malhotra,deepak.malhotra877@example.com,+91-7352266482,Bengaluru,2023-06-05,Gold Member,Prefer Not to Say
+CUST-0348,Arjun Gupta,arjun.gupta792@example.com,+91-8321357964,Mumbai,2023-12-05,Regular,Prefer Not to Say
+CUST-0349,Rohan Deshmukh,rohan.deshmukh585@example.com,+91-7637857516,Bengaluru,2024-03-18,Regular,Male
+CUST-0350,Varun Patel,varun.patel471@example.com,+91-9504782070,Mumbai,2024-02-14,Regular,Female
+CUST-0351,Tanvi Bhat,tanvi.bhat131@example.com,+91-7421622672,Bengaluru,2024-04-08,Gold Member,Prefer Not to Say
+CUST-0352,Riya Chopra,riya.chopra971@example.com,+91-8198028909,Bengaluru,2024-03-12,Gold Member,Female
+CUST-0353,Aditya Bhat,aditya.bhat522@example.com,+91-7131915938,Mumbai,2023-12-23,Occasional,Prefer Not to Say
+CUST-0354,Rohan Iyer,rohan.iyer833@example.com,+91-8552378069,Bengaluru,2023-11-18,Occasional,Prefer Not to Say
+CUST-0355,Shreya Iyer,shreya.iyer153@example.com,+91-8074690356,Mumbai,2024-02-19,Regular,Prefer Not to Say
+CUST-0356,Gaurav Nair,gaurav.nair767@example.com,+91-9761049221,Hyderabad,2024-04-11,Regular,Female
+CUST-0357,Isha Singh,isha.singh511@example.com,+91-9322383783,Bengaluru,2024-02-28,Regular,Prefer Not to Say
+CUST-0358,Meera Chatterjee,meera.chatterjee349@example.com,+91-9207924366,Bengaluru,2023-12-06,Occasional,Male
+CUST-0359,Rajesh Joshi,rajesh.joshi654@example.com,+91-7087388238,Hyderabad,2024-05-18,Occasional,Female
+CUST-0360,Deepak Gupta,deepak.gupta601@example.com,+91-7745616731,Mumbai,2024-03-23,Regular,Prefer Not to Say
+CUST-0361,Deepak Nair,deepak.nair748@example.com,+91-9030759832,Pune,2024-04-18,Gold Member,Prefer Not to Say
+CUST-0362,Neha Menon,neha.menon596@example.com,+91-9295424404,Mumbai,2023-06-17,Regular,Male
+CUST-0363,Aditya Sharma,aditya.sharma438@example.com,+91-7496264127,Delhi NCR,2023-11-08,Occasional,Female
+CUST-0364,Divya Kulkarni,divya.kulkarni952@example.com,+91-8545318163,Mumbai,2024-04-09,Occasional,Prefer Not to Say
+CUST-0365,Arjun Singh,arjun.singh342@example.com,+91-9169972701,Mumbai,2024-03-14,Gold Member,Male
+CUST-0366,Rishi Kapoor,rishi.kapoor944@example.com,+91-8746954869,Mumbai,2024-01-22,Occasional,Male
+CUST-0367,Naveen Menon,naveen.menon668@example.com,+91-9633444650,Delhi NCR,2024-05-14,Regular,Prefer Not to Say
+CUST-0368,Deepak Reddy,deepak.reddy581@example.com,+91-7978139473,Bengaluru,2023-10-21,Occasional,Male
+CUST-0369,Meera Malhotra,meera.malhotra716@example.com,+91-9310174094,Bengaluru,2023-09-15,Occasional,Prefer Not to Say
+CUST-0370,Gaurav Chatterjee,gaurav.chatterjee966@example.com,+91-9606345842,Bengaluru,2024-03-13,Regular,Female
+CUST-0371,Varun Mehta,varun.mehta566@example.com,+91-8244161712,Bengaluru,2024-05-12,Regular,Prefer Not to Say
+CUST-0372,Naveen Iyer,naveen.iyer304@example.com,+91-9340020358,Delhi NCR,2023-06-22,Regular,Female
+CUST-0373,Naveen Bose,naveen.bose775@example.com,+91-8569838047,Mumbai,2023-10-10,Occasional,Prefer Not to Say
+CUST-0374,Aditya Yadav,aditya.yadav722@example.com,+91-7890027992,Bengaluru,2024-03-14,Regular,Female
+CUST-0375,Karan Bhat,karan.bhat255@example.com,+91-7794416653,Pune,2024-03-27,Regular,Prefer Not to Say
+CUST-0376,Siddharth Das,siddharth.das112@example.com,+91-8354353292,Mumbai,2023-06-27,Occasional,Male
+CUST-0377,Deepak Mehta,deepak.mehta15@example.com,+91-8803330701,Delhi NCR,2023-08-10,Regular,Prefer Not to Say
+CUST-0378,Rajesh Das,rajesh.das676@example.com,+91-7653547649,Mumbai,2024-01-31,Occasional,Female
+CUST-0379,Gaurav Malhotra,gaurav.malhotra939@example.com,+91-9518921725,Delhi NCR,2023-07-01,Regular,Prefer Not to Say
+CUST-0380,Siddharth Yadav,siddharth.yadav945@example.com,+91-7573664773,Hyderabad,2023-06-20,Occasional,Prefer Not to Say
+CUST-0381,Priya Verma,priya.verma200@example.com,+91-9454347941,Mumbai,2024-02-09,Regular,Female
+CUST-0382,Rohan Sharma,rohan.sharma627@example.com,+91-7351653914,Mumbai,2024-03-17,Regular,Female
+CUST-0383,Varun Bose,varun.bose546@example.com,+91-8618427589,Mumbai,2024-03-05,Regular,Prefer Not to Say
+CUST-0384,Shreya Gupta,shreya.gupta348@example.com,+91-7532470150,Hyderabad,2023-07-28,Occasional,Male
+CUST-0385,Amit Jain,amit.jain764@example.com,+91-8104648669,Bengaluru,2023-06-08,Occasional,Male
+CUST-0386,Aditya Nair,aditya.nair928@example.com,+91-8328766059,Mumbai,2024-04-23,Occasional,Prefer Not to Say
+CUST-0387,Gaurav Patel,gaurav.patel107@example.com,+91-7605428430,Mumbai,2024-05-08,Regular,Female
+CUST-0388,Deepak Kapoor,deepak.kapoor277@example.com,+91-8256840870,Hyderabad,2023-06-04,Gold Member,Male
+CUST-0389,Manish Gupta,manish.gupta606@example.com,+91-9368785088,Mumbai,2023-11-02,Regular,Female
+CUST-0390,Aarav Gupta,aarav.gupta719@example.com,+91-7774318142,Delhi NCR,2023-12-02,Regular,Prefer Not to Say
+CUST-0391,Pooja Bose,pooja.bose425@example.com,+91-9248175866,Delhi NCR,2023-08-21,Regular,Female
+CUST-0392,Meera Jain,meera.jain948@example.com,+91-7966758174,Mumbai,2024-04-23,Regular,Male
+CUST-0393,Siddharth Rao,siddharth.rao166@example.com,+91-8490889395,Mumbai,2024-01-31,Occasional,Male
+CUST-0394,Swati Kulkarni,swati.kulkarni944@example.com,+91-8542880453,Delhi NCR,2024-03-08,Regular,Prefer Not to Say
+CUST-0395,Divya Rao,divya.rao904@example.com,+91-9580020730,Bengaluru,2024-04-01,Occasional,Prefer Not to Say
+CUST-0396,Manish Singh,manish.singh89@example.com,+91-8848624707,Mumbai,2023-12-03,Regular,Prefer Not to Say
+CUST-0397,Ananya Yadav,ananya.yadav596@example.com,+91-8758529641,Bengaluru,2023-09-12,Regular,Prefer Not to Say
+CUST-0398,Rahul Kapoor,rahul.kapoor129@example.com,+91-9229136922,Mumbai,2024-01-13,Occasional,Prefer Not to Say
+CUST-0399,Anjali Patel,anjali.patel838@example.com,+91-7182369432,Pune,2024-01-15,Regular,Prefer Not to Say
+CUST-0400,Arjun Singh,arjun.singh587@example.com,+91-7189183242,Delhi NCR,2024-01-20,Occasional,Female
+CUST-0401,Shreya Menon,shreya.menon415@example.com,+91-7833810395,Delhi NCR,2023-06-12,Gold Member,Female
+CUST-0402,Divya Joshi,divya.joshi443@example.com,+91-8128918357,Delhi NCR,2023-06-24,Regular,Male
+CUST-0403,Ananya Patel,ananya.patel303@example.com,+91-8339733590,Bengaluru,2023-06-17,Regular,Female
+CUST-0404,Arjun Das,arjun.das996@example.com,+91-8377459081,Pune,2024-04-26,Occasional,Prefer Not to Say
+CUST-0405,Rishi Bose,rishi.bose92@example.com,+91-9237196742,Bengaluru,2023-12-10,Gold Member,Female
+CUST-0406,Arjun Das,arjun.das192@example.com,+91-8760461518,Pune,2023-07-31,Occasional,Female
+CUST-0407,Arjun Rao,arjun.rao315@example.com,+91-8517198276,Mumbai,2023-06-12,Occasional,Male
+CUST-0408,Nidhi Yadav,nidhi.yadav263@example.com,+91-8509355371,Hyderabad,2023-09-26,Regular,Female
+CUST-0409,Neha Gupta,neha.gupta42@example.com,+91-9652496533,Delhi NCR,2023-07-28,Regular,Male
+CUST-0410,Rajesh Bhat,rajesh.bhat221@example.com,+91-7220423224,Mumbai,2023-10-02,Regular,Male
+CUST-0411,Rohan Bose,rohan.bose730@example.com,+91-9858016380,Hyderabad,2024-05-10,Gold Member,Prefer Not to Say
+CUST-0412,Kavya Verma,kavya.verma249@example.com,+91-8768638477,Bengaluru,2024-01-11,Regular,Female
+CUST-0413,Ananya Iyer,ananya.iyer249@example.com,+91-9673185511,Bengaluru,2023-10-27,Occasional,Prefer Not to Say
+CUST-0414,Gaurav Joshi,gaurav.joshi848@example.com,+91-8050741051,Bengaluru,2024-05-10,Regular,Prefer Not to Say
+CUST-0415,Meera Iyer,meera.iyer236@example.com,+91-8355149387,Delhi NCR,2024-02-22,Regular,Prefer Not to Say
+CUST-0416,Tanvi Verma,tanvi.verma910@example.com,+91-9409132955,Mumbai,2024-03-29,Regular,Prefer Not to Say
+CUST-0417,Nidhi Yadav,nidhi.yadav362@example.com,+91-9108097994,Mumbai,2023-06-25,Gold Member,Female
+CUST-0418,Rishi Singh,rishi.singh436@example.com,+91-8337729558,Bengaluru,2024-05-22,Regular,Female
+CUST-0419,Meera Deshmukh,meera.deshmukh494@example.com,+91-7789639536,Pune,2024-03-02,Regular,Male
+CUST-0420,Meera Jain,meera.jain946@example.com,+91-7188883713,Delhi NCR,2024-01-24,Regular,Male
+CUST-0421,Rajesh Kulkarni,rajesh.kulkarni147@example.com,+91-8272741831,Mumbai,2024-02-27,Regular,Prefer Not to Say
+CUST-0422,Amit Reddy,amit.reddy90@example.com,+91-8473858637,Mumbai,2024-04-27,Occasional,Female
+CUST-0423,Sneha Yadav,sneha.yadav62@example.com,+91-7879659436,Mumbai,2023-09-06,Regular,Prefer Not to Say
+CUST-0424,Rohan Patel,rohan.patel751@example.com,+91-9200283249,Mumbai,2024-03-27,Occasional,Male
+CUST-0425,Divya Chatterjee,divya.chatterjee320@example.com,+91-9978512009,Bengaluru,2023-11-18,Regular,Male
+CUST-0426,Divya Reddy,divya.reddy774@example.com,+91-9471772773,Mumbai,2023-07-31,Regular,Prefer Not to Say
+CUST-0427,Kavya Jain,kavya.jain219@example.com,+91-8299641369,Mumbai,2024-05-26,Occasional,Prefer Not to Say
+CUST-0428,Gaurav Malhotra,gaurav.malhotra556@example.com,+91-9125757088,Mumbai,2024-01-25,Gold Member,Female
+CUST-0429,Meera Gupta,meera.gupta913@example.com,+91-8629471080,Mumbai,2024-02-18,Regular,Female
+CUST-0430,Karan Chatterjee,karan.chatterjee389@example.com,+91-8025364254,Delhi NCR,2023-09-13,Gold Member,Female
+CUST-0431,Rohan Joshi,rohan.joshi26@example.com,+91-7854582523,Hyderabad,2023-08-14,Regular,Male
+CUST-0432,Rajesh Malhotra,rajesh.malhotra347@example.com,+91-7753759786,Bengaluru,2023-09-09,Regular,Male
+CUST-0433,Kavya Chatterjee,kavya.chatterjee976@example.com,+91-9244154245,Bengaluru,2024-05-01,Regular,Prefer Not to Say
+CUST-0434,Amit Chatterjee,amit.chatterjee767@example.com,+91-8607570401,Mumbai,2024-04-24,Gold Member,Prefer Not to Say
+CUST-0435,Rahul Chopra,rahul.chopra747@example.com,+91-8790974004,Hyderabad,2023-08-11,Occasional,Male
+CUST-0436,Priya Yadav,priya.yadav546@example.com,+91-7110819742,Bengaluru,2023-07-01,Regular,Prefer Not to Say
+CUST-0437,Ananya Sharma,ananya.sharma872@example.com,+91-9066640334,Delhi NCR,2023-08-10,Regular,Female
+CUST-0438,Vikram Jain,vikram.jain233@example.com,+91-8657169770,Mumbai,2023-06-05,Gold Member,Male
+CUST-0439,Swati Verma,swati.verma692@example.com,+91-9020273334,Delhi NCR,2024-04-22,Regular,Prefer Not to Say
+CUST-0440,Anjali Sharma,anjali.sharma574@example.com,+91-8347811553,Mumbai,2024-02-28,Gold Member,Male
+CUST-0441,Aditi Singh,aditi.singh558@example.com,+91-7939412246,Mumbai,2023-10-19,Regular,Prefer Not to Say
+CUST-0442,Nidhi Nair,nidhi.nair546@example.com,+91-7487941584,Mumbai,2023-07-20,Gold Member,Male
+CUST-0443,Aditya Bhat,aditya.bhat844@example.com,+91-8161445038,Hyderabad,2023-10-08,Gold Member,Prefer Not to Say
+CUST-0444,Riya Patel,riya.patel480@example.com,+91-8851341877,Delhi NCR,2023-12-25,Gold Member,Female
+CUST-0445,Siddharth Malhotra,siddharth.malhotra679@example.com,+91-9812295182,Mumbai,2023-07-12,Gold Member,Prefer Not to Say
+CUST-0446,Rohan Patel,rohan.patel396@example.com,+91-8811072390,Delhi NCR,2023-12-12,Occasional,Female
+CUST-0447,Ananya Das,ananya.das185@example.com,+91-7270975517,Hyderabad,2024-05-25,Regular,Male
+CUST-0448,Nidhi Das,nidhi.das888@example.com,+91-7312479226,Delhi NCR,2024-03-16,Gold Member,Female
+CUST-0449,Rohan Rao,rohan.rao918@example.com,+91-8857272324,Bengaluru,2024-05-20,Occasional,Male
+CUST-0450,Tanvi Verma,tanvi.verma957@example.com,+91-7918781176,Mumbai,2024-05-16,Gold Member,Male
+CUST-0451,Rohan Nair,rohan.nair994@example.com,+91-7678886943,Mumbai,2023-06-09,Gold Member,Female
+CUST-0452,Neha Jain,neha.jain316@example.com,+91-7532383919,Mumbai,2023-07-10,Regular,Female
+CUST-0453,Kavya Joshi,kavya.joshi928@example.com,+91-8771353480,Bengaluru,2024-05-12,Occasional,Female
+CUST-0454,Rishi Iyer,rishi.iyer522@example.com,+91-9442755332,Hyderabad,2023-07-11,Regular,Prefer Not to Say
+CUST-0455,Ananya Mehta,ananya.mehta868@example.com,+91-7249054642,Mumbai,2023-09-27,Regular,Female
+CUST-0456,Riya Kapoor,riya.kapoor289@example.com,+91-9567569054,Delhi NCR,2024-04-20,Regular,Male
+CUST-0457,Anjali Rao,anjali.rao973@example.com,+91-8230166603,Delhi NCR,2024-03-10,Regular,Female
+CUST-0458,Priya Menon,priya.menon399@example.com,+91-7280891083,Delhi NCR,2024-05-04,Regular,Prefer Not to Say
+CUST-0459,Varun Rao,varun.rao94@example.com,+91-7878030214,Bengaluru,2023-07-08,Occasional,Prefer Not to Say
+CUST-0460,Rishi Jain,rishi.jain767@example.com,+91-8276751507,Hyderabad,2023-08-18,Gold Member,Prefer Not to Say
+CUST-0461,Swati Mehta,swati.mehta975@example.com,+91-8010168292,Hyderabad,2023-06-03,Regular,Male
+CUST-0462,Swati Gupta,swati.gupta99@example.com,+91-7614066489,Hyderabad,2023-08-07,Occasional,Male
+CUST-0463,Manish Yadav,manish.yadav427@example.com,+91-7338413442,Bengaluru,2024-02-18,Gold Member,Prefer Not to Say
+CUST-0464,Sneha Chopra,sneha.chopra621@example.com,+91-8959652523,Mumbai,2023-07-18,Regular,Prefer Not to Say
+CUST-0465,Rishi Sharma,rishi.sharma407@example.com,+91-9553121101,Delhi NCR,2023-12-29,Regular,Female
+CUST-0466,Kavya Joshi,kavya.joshi711@example.com,+91-8247532216,Mumbai,2023-08-26,Occasional,Prefer Not to Say
+CUST-0467,Arjun Gupta,arjun.gupta514@example.com,+91-7478118292,Pune,2023-10-16,Regular,Female
+CUST-0468,Rahul Kulkarni,rahul.kulkarni316@example.com,+91-8586720082,Mumbai,2024-01-02,Regular,Female
+CUST-0469,Swati Gupta,swati.gupta517@example.com,+91-8945790828,Mumbai,2024-04-16,Occasional,Male
+CUST-0470,Aditya Bose,aditya.bose321@example.com,+91-7022161864,Mumbai,2023-08-09,Regular,Male
+CUST-0471,Isha Bhat,isha.bhat460@example.com,+91-8096866441,Mumbai,2023-11-16,Regular,Female
+CUST-0472,Arjun Malhotra,arjun.malhotra980@example.com,+91-9278336326,Delhi NCR,2024-04-04,Occasional,Female
+CUST-0473,Deepak Kapoor,deepak.kapoor336@example.com,+91-7955092955,Mumbai,2023-12-21,Gold Member,Male
+CUST-0474,Anjali Joshi,anjali.joshi395@example.com,+91-7918461502,Mumbai,2023-11-14,Occasional,Male
+CUST-0475,Swati Mehta,swati.mehta616@example.com,+91-8787933583,Hyderabad,2023-09-11,Regular,Prefer Not to Say
+CUST-0476,Aditi Bose,aditi.bose458@example.com,+91-9613848185,Delhi NCR,2023-09-16,Regular,Prefer Not to Say
+CUST-0477,Vikram Kulkarni,vikram.kulkarni152@example.com,+91-9075349692,Mumbai,2024-02-11,Occasional,Prefer Not to Say
+CUST-0478,Kavya Gupta,kavya.gupta742@example.com,+91-8386559412,Bengaluru,2023-08-18,Regular,Prefer Not to Say
+CUST-0479,Vikram Bose,vikram.bose606@example.com,+91-8313380040,Bengaluru,2024-02-01,Gold Member,Prefer Not to Say
+CUST-0480,Rajesh Yadav,rajesh.yadav728@example.com,+91-9934380373,Mumbai,2023-12-02,Regular,Male
+CUST-0481,Sneha Mehta,sneha.mehta690@example.com,+91-8163231802,Mumbai,2024-05-02,Regular,Male
+CUST-0482,Rohan Joshi,rohan.joshi672@example.com,+91-8309453463,Mumbai,2024-05-12,Regular,Prefer Not to Say
+CUST-0483,Nidhi Mehta,nidhi.mehta274@example.com,+91-7727476935,Bengaluru,2023-07-21,Regular,Male
+CUST-0484,Siddharth Bose,siddharth.bose484@example.com,+91-9530899070,Delhi NCR,2023-12-18,Regular,Female
+CUST-0485,Neha Chopra,neha.chopra117@example.com,+91-7968064522,Delhi NCR,2024-02-03,Regular,Male
+CUST-0486,Sneha Mehta,sneha.mehta366@example.com,+91-8022054966,Delhi NCR,2023-08-12,Occasional,Prefer Not to Say
+CUST-0487,Shreya Reddy,shreya.reddy366@example.com,+91-8560222795,Delhi NCR,2024-02-03,Gold Member,Prefer Not to Say
+CUST-0488,Manish Jain,manish.jain78@example.com,+91-7983915856,Mumbai,2023-11-11,Regular,Female
+CUST-0489,Pooja Sharma,pooja.sharma121@example.com,+91-9218831542,Delhi NCR,2024-04-27,Gold Member,Female
+CUST-0490,Kavya Singh,kavya.singh173@example.com,+91-8084583380,Bengaluru,2024-03-09,Regular,Male
+CUST-0491,Nidhi Bose,nidhi.bose654@example.com,+91-7604434430,Bengaluru,2023-12-25,Occasional,Male
+CUST-0492,Nidhi Deshmukh,nidhi.deshmukh914@example.com,+91-7646568926,Mumbai,2024-04-10,Gold Member,Male
+CUST-0493,Nidhi Deshmukh,nidhi.deshmukh229@example.com,+91-7674346483,Delhi NCR,2024-05-26,Regular,Male
+CUST-0494,Vikram Joshi,vikram.joshi201@example.com,+91-8198652727,Delhi NCR,2024-03-01,Regular,Male
+CUST-0495,Aditya Bose,aditya.bose696@example.com,+91-9826674157,Mumbai,2023-10-13,Occasional,Male
+CUST-0496,Gaurav Bhat,gaurav.bhat411@example.com,+91-8923424972,Hyderabad,2024-04-08,Regular,Female
+CUST-0497,Naveen Chopra,naveen.chopra186@example.com,+91-9666498288,Mumbai,2024-04-12,Regular,Female
+CUST-0498,Meera Bhat,meera.bhat698@example.com,+91-7438951049,Bengaluru,2023-07-14,Gold Member,Prefer Not to Say
+CUST-0499,Pooja Rao,pooja.rao197@example.com,+91-8223228528,Pune,2023-07-30,Gold Member,Female
+CUST-0500,Rishi Kulkarni,rishi.kulkarni598@example.com,+91-8257365448,Pune,2023-08-10,Regular,Prefer Not to Say
